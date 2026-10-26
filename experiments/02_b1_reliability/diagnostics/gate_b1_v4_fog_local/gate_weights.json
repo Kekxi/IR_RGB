@@ -1,0 +1,20 @@
+{
+  "P3": {
+    "mean_rgb_weight": 0.7933828978396666,
+    "fraction_rgb_weight_gt_0_6": 1.0,
+    "fraction_ir_weight_gt_0_6": 0.0,
+    "positions": 5665824
+  },
+  "P4": {
+    "mean_rgb_weight": 0.6287651699959871,
+    "fraction_rgb_weight_gt_0_6": 1.0,
+    "fraction_ir_weight_gt_0_6": 0.0,
+    "positions": 1416456
+  },
+  "P5": {
+    "mean_rgb_weight": 0.5844056241656663,
+    "fraction_rgb_weight_gt_0_6": 0.0,
+    "fraction_ir_weight_gt_0_6": 0.0,
+    "positions": 354114
+  }
+}

@@ -1,0 +1,13 @@
+# Research binaries and generated output
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.zip
+__pycache__/
+.DS_Store

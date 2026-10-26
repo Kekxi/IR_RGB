@@ -1,0 +1,12 @@
+{
+  "head": "ir",
+  "coordinate_system": "ir",
+  "architecture": "B3Phase2DetectionModel",
+  "transfer_radius": 0,
+  "weights": "/work/home/kekexiong/fog_ship_code_20261019/runs_b3_phase2_v4/b3p2_direct_s42_v4/weights/best.pt",
+  "data": "/work/home/kekexiong/fog_ship_code_20261019/manifests_b3_v4/fusion_eligible.yaml",
+  "precision": 0.9690170473703944,
+  "recall": 0.873499350934619,
+  "mAP50": 0.9604321093522558,
+  "mAP50_95": 0.8441571583935271
+}

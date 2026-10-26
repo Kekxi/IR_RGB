@@ -1,0 +1,10 @@
+{
+  "head": "ir",
+  "coordinate_system": "ir",
+  "weights": "E:\\HEU_4151\\RGB_IR\\fog_ship_experiments_20261019\\runs_b3_v4\\b3_dual_native_s42_v4\\weights\\best.pt",
+  "data": "E:\\HEU_4151\\RGB_IR\\fog_ship_experiments_20261019\\eval_b3_v4_local\\manifests\\haze_fog.yaml",
+  "precision": 0.9700773870519314,
+  "recall": 0.9201537147736977,
+  "mAP50": 0.9805620986887148,
+  "mAP50_95": 0.880020908232798
+}
