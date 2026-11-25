@@ -1,0 +1,318 @@
+{
+  "kind": "preregistered_development_diagnostic_not_independent_test",
+  "variant_count": 2,
+  "acceptance_distances": [
+    0.07,
+    0.13
+  ],
+  "candidate_radius": 0.13,
+  "detector_conf": {
+    "ir": 0.22,
+    "rgb": 0.7
+  },
+  "evaluated_targets_per_variant": 56,
+  "eligible_targets_per_variant": 51,
+  "confirmed_true_null": 45,
+  "inner_val_confirmed_true_null": 36,
+  "train_confirmed_true_null": 9,
+  "newly_verified_same_candidate": 6,
+  "excluded_visible_missing_gt": 4,
+  "excluded_uncertain": 1,
+  "variants": {
+    "accept_0.07": {
+      "overall_development": {
+        "eligible_targets": 51,
+        "true_null_targets": 45,
+        "verified_same_candidate_targets": 6,
+        "proposed_on_eligible": 7,
+        "true_null_correct_rejection": 44,
+        "true_null_false_match": 1,
+        "positive_correct_match": 6,
+        "positive_wrong_match": 0,
+        "positive_unmatched": 0,
+        "reviewed_cross_ship_occupancy": 0
+      },
+      "by_split": {
+        "inner_val": {
+          "eligible_targets": 42,
+          "true_null_targets": 36,
+          "verified_same_candidate_targets": 6,
+          "proposed_on_eligible": 7,
+          "true_null_correct_rejection": 35,
+          "true_null_false_match": 1,
+          "positive_correct_match": 6,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        },
+        "train": {
+          "eligible_targets": 9,
+          "true_null_targets": 9,
+          "verified_same_candidate_targets": 0,
+          "proposed_on_eligible": 0,
+          "true_null_correct_rejection": 9,
+          "true_null_false_match": 0,
+          "positive_correct_match": 0,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        }
+      },
+      "by_camera": {
+        "01": {
+          "eligible_targets": 4,
+          "true_null_targets": 1,
+          "verified_same_candidate_targets": 3,
+          "proposed_on_eligible": 3,
+          "true_null_correct_rejection": 1,
+          "true_null_false_match": 0,
+          "positive_correct_match": 3,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        },
+        "03": {
+          "eligible_targets": 1,
+          "true_null_targets": 1,
+          "verified_same_candidate_targets": 0,
+          "proposed_on_eligible": 0,
+          "true_null_correct_rejection": 1,
+          "true_null_false_match": 0,
+          "positive_correct_match": 0,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        },
+        "05": {
+          "eligible_targets": 8,
+          "true_null_targets": 8,
+          "verified_same_candidate_targets": 0,
+          "proposed_on_eligible": 0,
+          "true_null_correct_rejection": 8,
+          "true_null_false_match": 0,
+          "positive_correct_match": 0,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        },
+        "07": {
+          "eligible_targets": 38,
+          "true_null_targets": 35,
+          "verified_same_candidate_targets": 3,
+          "proposed_on_eligible": 4,
+          "true_null_correct_rejection": 34,
+          "true_null_false_match": 1,
+          "positive_correct_match": 3,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        }
+      },
+      "by_event": {
+        "20250117101739_2002_AT_352003977_1": {
+          "eligible_targets": 4,
+          "true_null_targets": 1,
+          "verified_same_candidate_targets": 3,
+          "proposed_on_eligible": 3,
+          "true_null_correct_rejection": 1,
+          "true_null_false_match": 0,
+          "positive_correct_match": 3,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        },
+        "20250117103454_2002_AT_413697880_1": {
+          "eligible_targets": 8,
+          "true_null_targets": 8,
+          "verified_same_candidate_targets": 0,
+          "proposed_on_eligible": 0,
+          "true_null_correct_rejection": 8,
+          "true_null_false_match": 0,
+          "positive_correct_match": 0,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        },
+        "20250117110751_2002_AT_414211000_1": {
+          "eligible_targets": 38,
+          "true_null_targets": 35,
+          "verified_same_candidate_targets": 3,
+          "proposed_on_eligible": 4,
+          "true_null_correct_rejection": 34,
+          "true_null_false_match": 1,
+          "positive_correct_match": 3,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        },
+        "20250312101233_2002_AT_413203610_1": {
+          "eligible_targets": 1,
+          "true_null_targets": 1,
+          "verified_same_candidate_targets": 0,
+          "proposed_on_eligible": 0,
+          "true_null_correct_rejection": 1,
+          "true_null_false_match": 0,
+          "positive_correct_match": 0,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        }
+      }
+    },
+    "accept_0.13": {
+      "overall_development": {
+        "eligible_targets": 51,
+        "true_null_targets": 45,
+        "verified_same_candidate_targets": 6,
+        "proposed_on_eligible": 7,
+        "true_null_correct_rejection": 44,
+        "true_null_false_match": 1,
+        "positive_correct_match": 6,
+        "positive_wrong_match": 0,
+        "positive_unmatched": 0,
+        "reviewed_cross_ship_occupancy": 0
+      },
+      "by_split": {
+        "inner_val": {
+          "eligible_targets": 42,
+          "true_null_targets": 36,
+          "verified_same_candidate_targets": 6,
+          "proposed_on_eligible": 7,
+          "true_null_correct_rejection": 35,
+          "true_null_false_match": 1,
+          "positive_correct_match": 6,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        },
+        "train": {
+          "eligible_targets": 9,
+          "true_null_targets": 9,
+          "verified_same_candidate_targets": 0,
+          "proposed_on_eligible": 0,
+          "true_null_correct_rejection": 9,
+          "true_null_false_match": 0,
+          "positive_correct_match": 0,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        }
+      },
+      "by_camera": {
+        "01": {
+          "eligible_targets": 4,
+          "true_null_targets": 1,
+          "verified_same_candidate_targets": 3,
+          "proposed_on_eligible": 3,
+          "true_null_correct_rejection": 1,
+          "true_null_false_match": 0,
+          "positive_correct_match": 3,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        },
+        "03": {
+          "eligible_targets": 1,
+          "true_null_targets": 1,
+          "verified_same_candidate_targets": 0,
+          "proposed_on_eligible": 0,
+          "true_null_correct_rejection": 1,
+          "true_null_false_match": 0,
+          "positive_correct_match": 0,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        },
+        "05": {
+          "eligible_targets": 8,
+          "true_null_targets": 8,
+          "verified_same_candidate_targets": 0,
+          "proposed_on_eligible": 0,
+          "true_null_correct_rejection": 8,
+          "true_null_false_match": 0,
+          "positive_correct_match": 0,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        },
+        "07": {
+          "eligible_targets": 38,
+          "true_null_targets": 35,
+          "verified_same_candidate_targets": 3,
+          "proposed_on_eligible": 4,
+          "true_null_correct_rejection": 34,
+          "true_null_false_match": 1,
+          "positive_correct_match": 3,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        }
+      },
+      "by_event": {
+        "20250117101739_2002_AT_352003977_1": {
+          "eligible_targets": 4,
+          "true_null_targets": 1,
+          "verified_same_candidate_targets": 3,
+          "proposed_on_eligible": 3,
+          "true_null_correct_rejection": 1,
+          "true_null_false_match": 0,
+          "positive_correct_match": 3,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        },
+        "20250117103454_2002_AT_413697880_1": {
+          "eligible_targets": 8,
+          "true_null_targets": 8,
+          "verified_same_candidate_targets": 0,
+          "proposed_on_eligible": 0,
+          "true_null_correct_rejection": 8,
+          "true_null_false_match": 0,
+          "positive_correct_match": 0,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        },
+        "20250117110751_2002_AT_414211000_1": {
+          "eligible_targets": 38,
+          "true_null_targets": 35,
+          "verified_same_candidate_targets": 3,
+          "proposed_on_eligible": 4,
+          "true_null_correct_rejection": 34,
+          "true_null_false_match": 1,
+          "positive_correct_match": 3,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        },
+        "20250312101233_2002_AT_413203610_1": {
+          "eligible_targets": 1,
+          "true_null_targets": 1,
+          "verified_same_candidate_targets": 0,
+          "proposed_on_eligible": 0,
+          "true_null_correct_rejection": 1,
+          "true_null_false_match": 0,
+          "positive_correct_match": 0,
+          "positive_wrong_match": 0,
+          "positive_unmatched": 0,
+          "reviewed_cross_ship_occupancy": 0
+        }
+      }
+    }
+  },
+  "changed_target_count": 0,
+  "changed_targets": [],
+  "known_identity_conflicts": [],
+  "legacy_paired_neighbour_count": 23,
+  "legacy_paired_correct_displaced_count": 0,
+  "new_same_candidate_correct_displaced_count": 0,
+  "true_null_candidate_edges": 64,
+  "true_null_candidate_edges_under_007": 7,
+  "correctly_rejected_null_all_candidates_owned_by_other_ir_013": 44,
+  "correctly_rejected_null_with_unassigned_candidate_013": 0,
+  "all_frame_ir_assignment_changes_in_reviewed_frames": 4,
+  "preregistered_no_effect_rule_triggered": true,
+  "outer_used": false,
+  "models_trained": false,
+  "threshold_selected": false
+}

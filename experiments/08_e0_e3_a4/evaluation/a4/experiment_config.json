@@ -1,0 +1,17 @@
+{
+  "stage": "A4 calibration-only structural IR-protection pilot",
+  "hypothesis": "An independent IR-only detection branch must retain every IR native detection exactly once when RGB candidates are present or absent; an empty RGB candidate list must yield exactly the IR-only reports.",
+  "comparison": ["IR-only baseline", "RGB candidates present, frozen E1 geometry association", "RGB candidates empty, same association code"],
+  "configuration_count": 3,
+  "ir_detector_variant": "ir_only",
+  "ir_detection_threshold_fixed": 0.22,
+  "rgb_detector_variant": "b3_rgb",
+  "rgb_detection_threshold_fixed": 0.3,
+  "association": "Frozen original E1 affine, radius 0.13, one-to-one Hungarian with explicit null; no FoV hard gate",
+  "association_radius_fixed": 0.13,
+  "split_used_now": "Existing E0 calibration block only (106 paired frames)",
+  "diagnostic_dev_used_now": false,
+  "selection_rule": "No parameter selection in this structural pilot; fail the protection claim if any IR prediction is missing, duplicated, or changed in an empty-RGB run.",
+  "metrics": ["IR prediction preservation count", "per-event unique recall", "background false alerts per frame", "duplicate reports per frame", "wrong merges per frame", "sequence 07 separately"],
+  "limits": "Frozen detector predictions simulate absent RGB candidates; they do not test a raw black/blurred RGB image through a trained fusion network or establish night performance. Working UIDs are evaluation-only and never association inputs."
+}

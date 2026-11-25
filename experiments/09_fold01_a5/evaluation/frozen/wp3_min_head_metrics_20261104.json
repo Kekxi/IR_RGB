@@ -1,0 +1,100 @@
+{
+  "input_dimension_match": 23,
+  "input_dimension_null": 12,
+  "train_pair_positive": 93,
+  "train_pair_negative": 100,
+  "train_null_positive": 31,
+  "train_null_negative": 93,
+  "train_candidate_pairs": 207,
+  "inner_val_candidate_pairs": 278,
+  "null_auc_inner_val": 0.9869543650793651,
+  "geometry_null_auc_inner_val": 0.9628968253968254,
+  "geometry_search_count": 6,
+  "head_search_count": 45,
+  "geometry_best": {
+    "threshold": 0.07,
+    "tp": 157,
+    "proposed": 169,
+    "positive": 168,
+    "precision": 0.9289940828402367,
+    "recall": 0.9345238095238095,
+    "f1": 0.9317507418397626,
+    "incorrect_matches": 12,
+    "wrong_merge": 1,
+    "wrong_forced_matches": 12,
+    "eligible_targets": 288
+  },
+  "head_best": {
+    "pair_threshold": 0.35,
+    "margin": 0.0,
+    "null_threshold": 0.6,
+    "tp": 152,
+    "proposed": 158,
+    "positive": 168,
+    "precision": 0.9620253164556962,
+    "recall": 0.9047619047619048,
+    "f1": 0.9325153374233128,
+    "incorrect_matches": 6,
+    "wrong_merge": 0,
+    "wrong_forced_matches": 6,
+    "eligible_targets": 288
+  },
+  "by_camera": {
+    "01": {
+      "geometry": {
+        "tp": 72,
+        "proposed": 79,
+        "positive": 77,
+        "precision": 0.9113924050632911,
+        "recall": 0.935064935064935,
+        "f1": 0.9230769230769231,
+        "incorrect_matches": 7,
+        "wrong_merge": 1,
+        "wrong_forced_matches": 7,
+        "eligible_targets": 118
+      },
+      "head": {
+        "tp": 72,
+        "proposed": 75,
+        "positive": 77,
+        "precision": 0.96,
+        "recall": 0.935064935064935,
+        "f1": 0.9473684210526315,
+        "incorrect_matches": 3,
+        "wrong_merge": 0,
+        "wrong_forced_matches": 3,
+        "eligible_targets": 118
+      }
+    },
+    "07": {
+      "geometry": {
+        "tp": 85,
+        "proposed": 90,
+        "positive": 91,
+        "precision": 0.9444444444444444,
+        "recall": 0.9340659340659341,
+        "f1": 0.9392265193370166,
+        "incorrect_matches": 5,
+        "wrong_merge": 0,
+        "wrong_forced_matches": 5,
+        "eligible_targets": 170
+      },
+      "head": {
+        "tp": 80,
+        "proposed": 83,
+        "positive": 91,
+        "precision": 0.963855421686747,
+        "recall": 0.8791208791208791,
+        "f1": 0.9195402298850575,
+        "incorrect_matches": 3,
+        "wrong_merge": 0,
+        "wrong_forced_matches": 3,
+        "eligible_targets": 170
+      }
+    }
+  },
+  "precision_gain": 0.033031233615459565,
+  "recall_gain": -0.029761904761904767,
+  "inner_val_is_calibration_not_test": true,
+  "outer_used": false
+}

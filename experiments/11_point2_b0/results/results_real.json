@@ -1,0 +1,95 @@
+{
+  "device": "cpu",
+  "imgsz": 960,
+  "region": 7,
+  "image_id": "mtdsp_08_20250117094532",
+  "rgb_p3_shape": [
+    1,
+    65,
+    120,
+    120
+  ],
+  "ir_p3_shape": [
+    1,
+    65,
+    120,
+    120
+  ],
+  "forward_seconds": 0.94,
+  "n_regions": 6,
+  "R_shape": [
+    6,
+    65,
+    7,
+    7
+  ],
+  "A_shape": [
+    6,
+    65,
+    7,
+    7
+  ],
+  "adapted_A_shape": [
+    6,
+    65,
+    7,
+    7
+  ],
+  "real_zero_residual_max_abs_diff": 0.0,
+  "g_curve_real": [
+    0.03,
+    0.07,
+    0.11,
+    0.15,
+    0.19,
+    0.23,
+    0.27,
+    0.31,
+    0.35,
+    0.39,
+    0.43,
+    0.47,
+    0.51,
+    0.55,
+    0.59,
+    0.63,
+    0.67,
+    0.71,
+    0.75,
+    0.79,
+    0.83,
+    0.87,
+    0.91,
+    0.95,
+    0.99
+  ],
+  "g_mixed": [
+    0.03,
+    0.222,
+    0.414,
+    0.606,
+    0.798,
+    0.99
+  ],
+  "q_mixed": [
+    -0.1372,
+    -0.4711,
+    -0.48,
+    -0.4849,
+    -0.1359,
+    -0.2407
+  ],
+  "g_monotone_real": true,
+  "all_finite": true,
+  "g_zero_h_spread": 0.0,
+  "g_zero_h_value": 0.5,
+  "g_spread_from_c_pair": 0.3591991364955902,
+  "g_with_random_h_spread": 0.05831221118569374,
+  "g_with_random_h_range": [
+    0.2728,
+    0.4137
+  ],
+  "rejected_g_max": 0.0,
+  "rejected_matches_R": true,
+  "head_same_on_zero_gate": true
+}

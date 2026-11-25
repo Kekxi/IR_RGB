@@ -1,0 +1,31 @@
+{
+  "test_outside_labels": 25,
+  "boundary_flag_counts": {
+    "projected_inside_rgb_image": 10,
+    "outside_but_within_train_fit_q95": 12,
+    "projected_beyond_fit_q95": 3
+  },
+  "train_fit_residuals": {
+    "01": {
+      "train_matches": 216,
+      "q95_max_axis_rgb": 0.01801538575674902
+    },
+    "03": {
+      "train_matches": 54,
+      "q95_max_axis_rgb": 0.06486393134810838
+    },
+    "05": {
+      "train_matches": 456,
+      "q95_max_axis_rgb": 0.026500376764884565
+    },
+    "07": {
+      "train_matches": 389,
+      "q95_max_axis_rgb": 0.04044791397795179
+    },
+    "09": {
+      "train_matches": 100,
+      "q95_max_axis_rgb": 0.012692539232685285
+    }
+  },
+  "warning": "Inverse affine and its residual are diagnostics, not proof of physical FoV. Every outside label still needs image review."
+}

@@ -1,0 +1,25 @@
+{
+  "purpose": "inference-route acceptance; not independent-voyage evaluation",
+  "source_kind": "manifest",
+  "condition": "ir_missing",
+  "manifest_sha256": "53f50eb16fd25e25c29d48820241f6deaafe913c574f9e1df5e193127b06d288",
+  "samples": 153,
+  "routes": {
+    "rgb": 153
+  },
+  "imgsz": 960,
+  "device": "cuda:0",
+  "fp16": true,
+  "model_ms": {
+    "median": 8.704,
+    "p95": 10.251
+  },
+  "preprocess_model_nms_ms": {
+    "median": 14.989,
+    "p95": 16.971
+  },
+  "peak_torch_allocated_mib": 134.2,
+  "latency_boundary": "Batch-1 square letterbox; excludes disk I/O, rendering and video encode. Not identical to rectangular validation loader or end-to-end live sensor latency.",
+  "geometry_boundary": "Uncalibrated RGB/IR pairs retain their original coordinate mismatch.",
+  "predictions": "E:\\HEU_4151\\dual-multimodal\\artifacts\\fallback_acceptance\\ir_missing_val153_fp16_v1\\predictions.jsonl"
+}

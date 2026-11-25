@@ -1,0 +1,304 @@
+{
+  "scope": "Calibration only; 106 existing paired frames, no diagnostic_dev use",
+  "configuration": "experiment_config.json",
+  "input_counts": {
+    "input_ir": 425,
+    "input_rgb": 401,
+    "paired_reports": 383,
+    "ir_null_reports": 42
+  },
+  "ir_preserved_each_frame": true,
+  "rgb_absent_exact_ir_only_reports": true,
+  "metrics": {
+    "ir_only": {
+      "pairs": 106,
+      "unique_gt": 413,
+      "unique_tp": 399,
+      "unique_recall": 0.9661016949152542,
+      "reports": 425,
+      "background_fp": 26,
+      "duplicate_alerts": 0,
+      "wrong_merges": 0,
+      "background_fppi": 0.24528301886792453,
+      "actionable_false_alert_fppi": 0.24528301886792453,
+      "by_camera": {
+        "01": {
+          "unique_tp": 84,
+          "background_fp": 8
+        },
+        "03": {
+          "unique_tp": 16
+        },
+        "05": {
+          "unique_tp": 121,
+          "background_fp": 1
+        },
+        "07": {
+          "unique_tp": 164,
+          "background_fp": 17
+        },
+        "09": {
+          "unique_tp": 14
+        }
+      }
+    },
+    "rgb_present": {
+      "pairs": 106,
+      "unique_gt": 413,
+      "unique_tp": 409,
+      "unique_recall": 0.9903147699757869,
+      "reports": 443,
+      "background_fp": 33,
+      "duplicate_alerts": 1,
+      "wrong_merges": 0,
+      "background_fppi": 0.3113207547169811,
+      "actionable_false_alert_fppi": 0.32075471698113206,
+      "by_camera": {
+        "01": {
+          "unique_tp": 87,
+          "background_fp": 10
+        },
+        "03": {
+          "unique_tp": 16
+        },
+        "05": {
+          "unique_tp": 123,
+          "background_fp": 6
+        },
+        "07": {
+          "unique_tp": 169,
+          "background_fp": 17,
+          "duplicate_alerts": 1
+        },
+        "09": {
+          "unique_tp": 14
+        }
+      }
+    },
+    "rgb_absent": {
+      "pairs": 106,
+      "unique_gt": 413,
+      "unique_tp": 399,
+      "unique_recall": 0.9661016949152542,
+      "reports": 425,
+      "background_fp": 26,
+      "duplicate_alerts": 0,
+      "wrong_merges": 0,
+      "background_fppi": 0.24528301886792453,
+      "actionable_false_alert_fppi": 0.24528301886792453,
+      "by_camera": {
+        "01": {
+          "unique_tp": 84,
+          "background_fp": 8
+        },
+        "03": {
+          "unique_tp": 16
+        },
+        "05": {
+          "unique_tp": 121,
+          "background_fp": 1
+        },
+        "07": {
+          "unique_tp": 164,
+          "background_fp": 17
+        },
+        "09": {
+          "unique_tp": 14
+        }
+      }
+    }
+  },
+  "by_event": {
+    "20250117101739_2002_AT_352003977_1": {
+      "ir_only": {
+        "pairs": 29,
+        "unique_gt": 90,
+        "unique_tp": 84,
+        "unique_recall": 0.9333333333333333,
+        "background_fp": 8,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.27586206896551724,
+        "actionable_false_alert_fppi": 0.27586206896551724
+      },
+      "rgb_present": {
+        "pairs": 29,
+        "unique_gt": 90,
+        "unique_tp": 87,
+        "unique_recall": 0.9666666666666667,
+        "background_fp": 10,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.3448275862068966,
+        "actionable_false_alert_fppi": 0.3448275862068966
+      },
+      "rgb_absent": {
+        "pairs": 29,
+        "unique_gt": 90,
+        "unique_tp": 84,
+        "unique_recall": 0.9333333333333333,
+        "background_fp": 8,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.27586206896551724,
+        "actionable_false_alert_fppi": 0.27586206896551724
+      }
+    },
+    "20250117103141_2002_AT_413020540_1": {
+      "ir_only": {
+        "pairs": 3,
+        "unique_gt": 14,
+        "unique_tp": 14,
+        "unique_recall": 1.0,
+        "background_fp": 0,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.0,
+        "actionable_false_alert_fppi": 0.0
+      },
+      "rgb_present": {
+        "pairs": 3,
+        "unique_gt": 14,
+        "unique_tp": 14,
+        "unique_recall": 1.0,
+        "background_fp": 0,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.0,
+        "actionable_false_alert_fppi": 0.0
+      },
+      "rgb_absent": {
+        "pairs": 3,
+        "unique_gt": 14,
+        "unique_tp": 14,
+        "unique_recall": 1.0,
+        "background_fp": 0,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.0,
+        "actionable_false_alert_fppi": 0.0
+      }
+    },
+    "20250117103454_2002_AT_413697880_1": {
+      "ir_only": {
+        "pairs": 34,
+        "unique_gt": 123,
+        "unique_tp": 121,
+        "unique_recall": 0.983739837398374,
+        "background_fp": 1,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.029411764705882353,
+        "actionable_false_alert_fppi": 0.029411764705882353
+      },
+      "rgb_present": {
+        "pairs": 34,
+        "unique_gt": 123,
+        "unique_tp": 123,
+        "unique_recall": 1.0,
+        "background_fp": 6,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.17647058823529413,
+        "actionable_false_alert_fppi": 0.17647058823529413
+      },
+      "rgb_absent": {
+        "pairs": 34,
+        "unique_gt": 123,
+        "unique_tp": 121,
+        "unique_recall": 0.983739837398374,
+        "background_fp": 1,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.029411764705882353,
+        "actionable_false_alert_fppi": 0.029411764705882353
+      }
+    },
+    "20250117110751_2002_AT_414211000_1": {
+      "ir_only": {
+        "pairs": 32,
+        "unique_gt": 170,
+        "unique_tp": 164,
+        "unique_recall": 0.9647058823529412,
+        "background_fp": 17,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.53125,
+        "actionable_false_alert_fppi": 0.53125
+      },
+      "rgb_present": {
+        "pairs": 32,
+        "unique_gt": 170,
+        "unique_tp": 169,
+        "unique_recall": 0.9941176470588236,
+        "background_fp": 17,
+        "duplicate_alerts": 1,
+        "wrong_merges": 0,
+        "background_fppi": 0.53125,
+        "actionable_false_alert_fppi": 0.5625
+      },
+      "rgb_absent": {
+        "pairs": 32,
+        "unique_gt": 170,
+        "unique_tp": 164,
+        "unique_recall": 0.9647058823529412,
+        "background_fp": 17,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.53125,
+        "actionable_false_alert_fppi": 0.53125
+      }
+    },
+    "20250312101233_2002_AT_413203610_1": {
+      "ir_only": {
+        "pairs": 8,
+        "unique_gt": 16,
+        "unique_tp": 16,
+        "unique_recall": 1.0,
+        "background_fp": 0,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.0,
+        "actionable_false_alert_fppi": 0.0
+      },
+      "rgb_present": {
+        "pairs": 8,
+        "unique_gt": 16,
+        "unique_tp": 16,
+        "unique_recall": 1.0,
+        "background_fp": 0,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.0,
+        "actionable_false_alert_fppi": 0.0
+      },
+      "rgb_absent": {
+        "pairs": 8,
+        "unique_gt": 16,
+        "unique_tp": 16,
+        "unique_recall": 1.0,
+        "background_fp": 0,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.0,
+        "actionable_false_alert_fppi": 0.0
+      }
+    }
+  },
+  "sequence_07": {
+    "ir_only": {
+      "unique_tp": 164,
+      "background_fp": 17
+    },
+    "rgb_present": {
+      "unique_tp": 169,
+      "background_fp": 17,
+      "duplicate_alerts": 1
+    },
+    "rgb_absent": {
+      "unique_tp": 164,
+      "background_fp": 17
+    }
+  },
+  "interpretation_limit": "This is a report-wrapper invariant on frozen candidates, not a trained-network RGB blackout/blur test."
+}

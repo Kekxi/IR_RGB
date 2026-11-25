@@ -1,6 +1,8 @@
 # IR/RGB maritime ship detection experiments
 
-This repository records the RGB–IR ship detection experiments through **2026-10-26**. The main question is whether IR can improve ship detection in haze and fog, including targets that are weak in RGB. All reported experiments currently use seed 42; the fog subset contains 633 paired images from a 877-pair V4 validation set.
+This repository records the RGB–IR ship detection experiments through **2026-11-21**. The main question is whether IR can improve ship detection in haze and fog, including targets that are weak in RGB. The V4 visual haze/fog subset contains 633 of 877 validation pairs. Later stages use an event-isolated Fold01 and additional controlled diagnostics. The Point 2 B0 v4 proxy experiment used two seeds per fold.
+
+[完整实验归档与阶段总结（2026-11-21）](%E5%AE%9E%E9%AA%8C%E5%BD%92%E6%A1%A3%E4%B8%8E%E9%98%B6%E6%AE%B5%E6%80%BB%E7%BB%93_20261121.md) covers all 34 archived experiment entries, including evidence boundaries and pending work.
 
 | Stage | Directory | Main finding |
 | --- | --- | --- |
@@ -11,10 +13,15 @@ This repository records the RGB–IR ship detection experiments through **2026-1
 | B2 local alignment | [04_b2_align_v4](experiments/04_b2_align_v4/README.md) | Fog recall improved slightly; fog AP and the reviewed RGB-weak/IR-clear subset did not. |
 | B3 dual native heads | [05_b3_dual_native](experiments/05_b3_dual_native/README.md) | Independent RGB/IR labels and native outputs work, but the dual-head system trails independent model fusion. |
 | B3 P3 ablation | [06_b3_phase2_p3_ablation](experiments/06_b3_phase2_p3_ablation/README.md) | Local RGB→IR P3 transfer has a small count gain over matched controls, not over independent fusion or IR-only native AP. |
+| Early YTMS YOLOv8s | [07_ytms_yolov8s](experiments/07_ytms_yolov8s/README.md) | On the reviewed paired development set, Concat led the other dual-stream variants. |
+| E0–E3 and A4 | [08_e0_e3_a4](experiments/08_e0_e3_a4/README.md) | Geometry and IR guard checks on calibration and diagnostic development blocks. |
+| Fold01 and A5 | [09_fold01_a5](experiments/09_fold01_a5/README.md) | Event-isolated detection, geometry and fog diagnostics, outer audit, and null ablations. |
+| Point 1 association | [10_point1_association](experiments/10_point1_association/README.md) | Four cost ratios and training-side review expansion. |
+| Point 2 B0 | [11_point2_b0](experiments/11_point2_b0/README.md) | Regional soft-gate experiments v1–v5, including matched-statistic and cross-event controls. |
 
-The runnable Python and server scripts are in [src](src/README.md); the V4 data protocol and condition annotations are in [data_protocol](data_protocol/README.md). Each experiment folder contains its own README, training configuration where available, machine-readable metrics, and the dated analysis report.
+Python and server scripts for the October B0–B3 stages are in [src](src/README.md); the V4 data protocol and condition annotations are in [data_protocol](data_protocol/README.md). Each experiment folder contains its own README, training configuration where available, machine-readable metrics, and the dated analysis report.
 
-**Evidence boundary:** RGB and IR AP use their respective native labels and are not directly comparable as a fusion gain. Cross-modal unique-target counts use provisional correspondences and validation-set threshold tuning; they are exploratory per-frame counts, not independently tested counts of physical ships across video. No multi-seed stability claim has been established.
+**Evidence boundary:** RGB and IR AP use their respective native labels and are not directly comparable as a fusion gain. The October B3 unique-target counts use provisional correspondences and threshold tuning on validation data. The later Fold01 outer results cover reviewed identities and report association conditional on detection as well as recovery over all reviewed same-ship targets.
 
 The raw RGB/IR images, label files, checkpoint weights, rendered prediction images, raw per-box predictions, and provisional per-object correspondence spreadsheets are not published here. They remain in the local/server study archive. The released metrics and reports document the available results; recreating the cross-modal matching scores from scratch requires those underlying files. Some training curves for B3 phase 2 were not downloaded locally and are therefore absent.
 

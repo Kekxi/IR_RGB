@@ -1,0 +1,430 @@
+{
+  "method": "learned_matching_explicit_null_no_fov_gate",
+  "source": "E:\\HEU_4151\\RGB_IR\\outputs\\b3_e0_e1_rgb_box_repair_20261029",
+  "budget_actionable_false_alert_fppi": 0.25,
+  "fov_use": "report_status_only; never blocks association",
+  "fov_report_cutoff_from_calibration": {
+    "cutoff": 0.5,
+    "balanced_accuracy": 0.9241293532338308,
+    "inside_total": 402,
+    "outside_total": 9,
+    "inside_correct": 341,
+    "outside_correct": 9
+  },
+  "status_warning": "Working correspondence provides proxy classes: common FoV without RGB GT does not prove visually unrecognizable; no match does not prove outside FoV. GT-box matrices are oracle-location diagnostics. Operational matrices include only detected IR GTs; missing IR detections are counted separately. Fine manual classes distinguish unrecognizable from no RGB GT box; uncertain cases are excluded. A visually both-visible case requires a separately verified RGB GT box before dual-box association training.",
+  "test_boundary": "exploratory temporal blocks from validation scenes already used for detector selection",
+  "manual_review_items_mapped": 31,
+  "manual_uncertain_items_excluded": 1,
+  "manual_both_visible_without_rgb_gt": 1,
+  "results": {
+    "rgb_only_plus_ir": {
+      "rgb_variant": "rgb_only",
+      "thresholds": {
+        "ir_threshold": 0.22,
+        "rgb_threshold": 0.95,
+        "match_threshold": 0.3
+      },
+      "calibration_budget_met": true,
+      "calibration": {
+        "pairs": 106,
+        "unique_gt": 413,
+        "unique_tp": 399,
+        "unique_recall": 0.9661016949152542,
+        "reports": 425,
+        "background_fp": 26,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.24528301886792453,
+        "actionable_false_alert_fppi": 0.24528301886792453,
+        "by_camera": {
+          "01": {
+            "unique_tp": 84,
+            "background_fp": 8
+          },
+          "03": {
+            "unique_tp": 16
+          },
+          "05": {
+            "unique_tp": 121,
+            "background_fp": 1
+          },
+          "07": {
+            "unique_tp": 164,
+            "background_fp": 17
+          },
+          "09": {
+            "unique_tp": 14
+          }
+        },
+        "paired_reports": 0,
+        "correct_uid_pairs": 0,
+        "rgb_only_reports": 0
+      },
+      "test": {
+        "pairs": 121,
+        "unique_gt": 449,
+        "unique_tp": 408,
+        "unique_recall": 0.9086859688195991,
+        "reports": 460,
+        "background_fp": 52,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.4297520661157025,
+        "actionable_false_alert_fppi": 0.4297520661157025,
+        "by_camera": {
+          "01": {
+            "unique_tp": 82,
+            "background_fp": 5
+          },
+          "03": {
+            "unique_tp": 21
+          },
+          "05": {
+            "unique_tp": 159,
+            "background_fp": 23
+          },
+          "07": {
+            "unique_tp": 108,
+            "background_fp": 24
+          },
+          "09": {
+            "unique_tp": 34
+          },
+          "13": {
+            "unique_tp": 4
+          }
+        },
+        "paired_reports": 0,
+        "correct_uid_pairs": 0,
+        "rgb_only_reports": 0
+      },
+      "status_audit": {
+        "gt_box_diagnostic_proxy_matrix": {
+          "outside": {
+            "outside": 11,
+            "inside_no_rgb_box": 2,
+            "both_visible": 0
+          },
+          "inside_no_rgb_box": {
+            "outside": 15,
+            "inside_no_rgb_box": 39,
+            "both_visible": 0
+          },
+          "both_visible": {
+            "outside": 100,
+            "inside_no_rgb_box": 276,
+            "both_visible": 0
+          }
+        },
+        "gt_box_diagnostic_manual_matrix": {
+          "outside": {
+            "outside": 11,
+            "inside_no_rgb_box": 2,
+            "both_visible": 0
+          },
+          "inside_no_rgb_box": {
+            "outside": 6,
+            "inside_no_rgb_box": 1,
+            "both_visible": 0
+          },
+          "both_visible": {
+            "outside": 6,
+            "inside_no_rgb_box": 5,
+            "both_visible": 0
+          }
+        },
+        "gt_box_diagnostic_manual_fine_matrix": {
+          "outside": {
+            "outside": 11,
+            "inside_no_rgb_box": 2,
+            "both_visible": 0
+          },
+          "inside_unrecognizable": {
+            "outside": 5,
+            "inside_no_rgb_box": 1,
+            "both_visible": 0
+          },
+          "inside_no_rgb_box": {
+            "outside": 1,
+            "inside_no_rgb_box": 0,
+            "both_visible": 0
+          },
+          "both_visible": {
+            "outside": 6,
+            "inside_no_rgb_box": 5,
+            "both_visible": 0
+          }
+        },
+        "operational_detected_ir_proxy_matrix": {
+          "outside": {
+            "outside": 10,
+            "inside_no_rgb_box": 1,
+            "both_visible": 0
+          },
+          "inside_no_rgb_box": {
+            "outside": 12,
+            "inside_no_rgb_box": 38,
+            "both_visible": 0
+          },
+          "both_visible": {
+            "outside": 78,
+            "inside_no_rgb_box": 269,
+            "both_visible": 0
+          }
+        },
+        "operational_detected_ir_manual_matrix": {
+          "outside": {
+            "outside": 10,
+            "inside_no_rgb_box": 1,
+            "both_visible": 0
+          },
+          "inside_no_rgb_box": {
+            "outside": 6,
+            "inside_no_rgb_box": 1,
+            "both_visible": 0
+          },
+          "both_visible": {
+            "outside": 4,
+            "inside_no_rgb_box": 6,
+            "both_visible": 0
+          }
+        },
+        "operational_detected_ir_manual_fine_matrix": {
+          "outside": {
+            "outside": 10,
+            "inside_no_rgb_box": 1,
+            "both_visible": 0
+          },
+          "inside_unrecognizable": {
+            "outside": 5,
+            "inside_no_rgb_box": 1,
+            "both_visible": 0
+          },
+          "inside_no_rgb_box": {
+            "outside": 1,
+            "inside_no_rgb_box": 0,
+            "both_visible": 0
+          },
+          "both_visible": {
+            "outside": 4,
+            "inside_no_rgb_box": 6,
+            "both_visible": 0
+          }
+        },
+        "no_ir_detection_by_proxy_truth": {
+          "both_visible": 29,
+          "inside_no_rgb_box": 4,
+          "outside": 2
+        },
+        "manual_uncertain_excluded": 1,
+        "manual_review_n": 31
+      }
+    },
+    "b3_rgb_plus_ir": {
+      "rgb_variant": "b3_rgb",
+      "thresholds": {
+        "ir_threshold": 0.55,
+        "rgb_threshold": 0.4,
+        "match_threshold": 0.3
+      },
+      "calibration_budget_met": true,
+      "calibration": {
+        "pairs": 106,
+        "unique_gt": 413,
+        "unique_tp": 401,
+        "unique_recall": 0.9709443099273608,
+        "reports": 423,
+        "background_fp": 21,
+        "duplicate_alerts": 1,
+        "wrong_merges": 0,
+        "background_fppi": 0.19811320754716982,
+        "actionable_false_alert_fppi": 0.20754716981132076,
+        "by_camera": {
+          "01": {
+            "unique_tp": 87,
+            "background_fp": 4
+          },
+          "03": {
+            "unique_tp": 16
+          },
+          "05": {
+            "unique_tp": 119,
+            "background_fp": 8
+          },
+          "07": {
+            "unique_tp": 165,
+            "background_fp": 9,
+            "duplicate_alerts": 1
+          },
+          "09": {
+            "unique_tp": 14
+          }
+        },
+        "paired_reports": 372,
+        "correct_uid_pairs": 365,
+        "rgb_only_reports": 23
+      },
+      "test": {
+        "pairs": 121,
+        "unique_gt": 449,
+        "unique_tp": 413,
+        "unique_recall": 0.9198218262806236,
+        "reports": 443,
+        "background_fp": 27,
+        "duplicate_alerts": 3,
+        "wrong_merges": 0,
+        "background_fppi": 0.2231404958677686,
+        "actionable_false_alert_fppi": 0.24793388429752067,
+        "by_camera": {
+          "01": {
+            "unique_tp": 85,
+            "background_fp": 2,
+            "duplicate_alerts": 1
+          },
+          "03": {
+            "unique_tp": 22
+          },
+          "05": {
+            "unique_tp": 163,
+            "background_fp": 9
+          },
+          "07": {
+            "unique_tp": 106,
+            "duplicate_alerts": 2,
+            "background_fp": 16
+          },
+          "09": {
+            "unique_tp": 34
+          },
+          "13": {
+            "unique_tp": 3
+          }
+        },
+        "paired_reports": 337,
+        "correct_uid_pairs": 323,
+        "rgb_only_reports": 29
+      },
+      "status_audit": {
+        "gt_box_diagnostic_proxy_matrix": {
+          "outside": {
+            "outside": 11,
+            "inside_no_rgb_box": 2,
+            "both_visible": 0
+          },
+          "inside_no_rgb_box": {
+            "outside": 15,
+            "inside_no_rgb_box": 39,
+            "both_visible": 0
+          },
+          "both_visible": {
+            "outside": 100,
+            "inside_no_rgb_box": 16,
+            "both_visible": 260
+          }
+        },
+        "gt_box_diagnostic_manual_matrix": {
+          "outside": {
+            "outside": 11,
+            "inside_no_rgb_box": 2,
+            "both_visible": 0
+          },
+          "inside_no_rgb_box": {
+            "outside": 6,
+            "inside_no_rgb_box": 1,
+            "both_visible": 0
+          },
+          "both_visible": {
+            "outside": 6,
+            "inside_no_rgb_box": 4,
+            "both_visible": 1
+          }
+        },
+        "gt_box_diagnostic_manual_fine_matrix": {
+          "outside": {
+            "outside": 11,
+            "inside_no_rgb_box": 2,
+            "both_visible": 0
+          },
+          "inside_unrecognizable": {
+            "outside": 5,
+            "inside_no_rgb_box": 1,
+            "both_visible": 0
+          },
+          "inside_no_rgb_box": {
+            "outside": 1,
+            "inside_no_rgb_box": 0,
+            "both_visible": 0
+          },
+          "both_visible": {
+            "outside": 6,
+            "inside_no_rgb_box": 4,
+            "both_visible": 1
+          }
+        },
+        "operational_detected_ir_proxy_matrix": {
+          "outside": {
+            "outside": 9,
+            "inside_no_rgb_box": 1,
+            "both_visible": 0
+          },
+          "inside_no_rgb_box": {
+            "outside": 10,
+            "inside_no_rgb_box": 36,
+            "both_visible": 0
+          },
+          "both_visible": {
+            "outside": 76,
+            "inside_no_rgb_box": 4,
+            "both_visible": 258
+          }
+        },
+        "operational_detected_ir_manual_matrix": {
+          "outside": {
+            "outside": 9,
+            "inside_no_rgb_box": 1,
+            "both_visible": 0
+          },
+          "inside_no_rgb_box": {
+            "outside": 5,
+            "inside_no_rgb_box": 1,
+            "both_visible": 0
+          },
+          "both_visible": {
+            "outside": 3,
+            "inside_no_rgb_box": 1,
+            "both_visible": 1
+          }
+        },
+        "operational_detected_ir_manual_fine_matrix": {
+          "outside": {
+            "outside": 9,
+            "inside_no_rgb_box": 1,
+            "both_visible": 0
+          },
+          "inside_unrecognizable": {
+            "outside": 4,
+            "inside_no_rgb_box": 1,
+            "both_visible": 0
+          },
+          "inside_no_rgb_box": {
+            "outside": 1,
+            "inside_no_rgb_box": 0,
+            "both_visible": 0
+          },
+          "both_visible": {
+            "outside": 3,
+            "inside_no_rgb_box": 1,
+            "both_visible": 1
+          }
+        },
+        "no_ir_detection_by_proxy_truth": {
+          "both_visible": 38,
+          "inside_no_rgb_box": 8,
+          "outside": 3
+        },
+        "manual_uncertain_excluded": 1,
+        "manual_review_n": 31
+      }
+    }
+  }
+}

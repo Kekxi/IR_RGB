@@ -1,0 +1,165 @@
+{
+  "frozen_threshold": 0.07,
+  "candidate_radius": 0.13,
+  "geometry": "original_E1_train_fitted_global",
+  "outer_identity_rows_total": 120,
+  "outer_identity_rows_evaluated": 118,
+  "outer_frames": 109,
+  "overall": {
+    "reviewed": 118,
+    "matched_truth": 107,
+    "null_truth": 11,
+    "ir_detected": 100,
+    "rgb_detected_of_matched": 79,
+    "positive_in_radius_013": 79,
+    "positive_under_007": 79,
+    "correct_match": 79,
+    "proposed_match": 80,
+    "match_precision": 0.9875,
+    "match_recall_unconditional": 0.7383177570093458,
+    "match_recall_candidate_conditional": 1.0,
+    "null_correct": 5,
+    "null_false_match": 1,
+    "null_ir_miss": 5,
+    "wrong_match_total": 1,
+    "reviewed_counterpart_rgb_occupied": 0,
+    "outcome_counts": {
+      "correct_match": 79,
+      "ir_miss": 18,
+      "rgb_miss": 15,
+      "correct_null": 5,
+      "false_match": 1
+    }
+  },
+  "by_camera": {
+    "00": {
+      "reviewed": 39,
+      "matched_truth": 38,
+      "null_truth": 1,
+      "ir_detected": 37,
+      "rgb_detected_of_matched": 29,
+      "positive_in_radius_013": 29,
+      "positive_under_007": 29,
+      "correct_match": 29,
+      "proposed_match": 29,
+      "match_precision": 1.0,
+      "match_recall_unconditional": 0.7631578947368421,
+      "match_recall_candidate_conditional": 1.0,
+      "null_correct": 1,
+      "null_false_match": 0,
+      "null_ir_miss": 0,
+      "wrong_match_total": 0,
+      "reviewed_counterpart_rgb_occupied": 0,
+      "outcome_counts": {
+        "correct_match": 29,
+        "rgb_miss": 7,
+        "ir_miss": 2,
+        "correct_null": 1
+      }
+    },
+    "10": {
+      "reviewed": 39,
+      "matched_truth": 31,
+      "null_truth": 8,
+      "ir_detected": 35,
+      "rgb_detected_of_matched": 30,
+      "positive_in_radius_013": 30,
+      "positive_under_007": 30,
+      "correct_match": 30,
+      "proposed_match": 31,
+      "match_precision": 0.967741935483871,
+      "match_recall_unconditional": 0.967741935483871,
+      "match_recall_candidate_conditional": 1.0,
+      "null_correct": 3,
+      "null_false_match": 1,
+      "null_ir_miss": 4,
+      "wrong_match_total": 1,
+      "reviewed_counterpart_rgb_occupied": 0,
+      "outcome_counts": {
+        "correct_match": 30,
+        "ir_miss": 4,
+        "correct_null": 3,
+        "rgb_miss": 1,
+        "false_match": 1
+      }
+    },
+    "13": {
+      "reviewed": 40,
+      "matched_truth": 38,
+      "null_truth": 2,
+      "ir_detected": 28,
+      "rgb_detected_of_matched": 20,
+      "positive_in_radius_013": 20,
+      "positive_under_007": 20,
+      "correct_match": 20,
+      "proposed_match": 20,
+      "match_precision": 1.0,
+      "match_recall_unconditional": 0.5263157894736842,
+      "match_recall_candidate_conditional": 1.0,
+      "null_correct": 1,
+      "null_false_match": 0,
+      "null_ir_miss": 1,
+      "wrong_match_total": 0,
+      "reviewed_counterpart_rgb_occupied": 0,
+      "outcome_counts": {
+        "correct_match": 20,
+        "ir_miss": 12,
+        "rgb_miss": 7,
+        "correct_null": 1
+      }
+    }
+  },
+  "native_detector_by_camera": {
+    "00_ir": {
+      "frames": 36,
+      "gt": 105,
+      "detected": 95,
+      "recall": 0.9047619047619048,
+      "background_fp": 12,
+      "background_fp_per_frame": 0.3333333333333333
+    },
+    "00_rgb": {
+      "frames": 36,
+      "gt": 100,
+      "detected": 74,
+      "recall": 0.74,
+      "background_fp": 1,
+      "background_fp_per_frame": 0.027777777777777776
+    },
+    "10_ir": {
+      "frames": 36,
+      "gt": 115,
+      "detected": 106,
+      "recall": 0.9217391304347826,
+      "background_fp": 6,
+      "background_fp_per_frame": 0.16666666666666666
+    },
+    "10_rgb": {
+      "frames": 36,
+      "gt": 94,
+      "detected": 90,
+      "recall": 0.9574468085106383,
+      "background_fp": 1,
+      "background_fp_per_frame": 0.027777777777777776
+    },
+    "13_ir": {
+      "frames": 37,
+      "gt": 64,
+      "detected": 44,
+      "recall": 0.6875,
+      "background_fp": 5,
+      "background_fp_per_frame": 0.13513513513513514
+    },
+    "13_rgb": {
+      "frames": 37,
+      "gt": 64,
+      "detected": 34,
+      "recall": 0.53125,
+      "background_fp": 0,
+      "background_fp_per_frame": 0.0
+    }
+  },
+  "inner_val_threshold_unchanged": true,
+  "outer_used_for_model_selection": false,
+  "scope": "reviewed target subset; not full-system duplicate/wrong-merge per image"
+}

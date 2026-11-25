@@ -1,0 +1,352 @@
+{
+  "config": "threshold_selection_config.json",
+  "calibration_size": 106,
+  "ir_only_baseline": {
+    "pairs": 106,
+    "unique_gt": 413,
+    "unique_tp": 399,
+    "unique_recall": 0.9661016949152542,
+    "reports": 425,
+    "background_fp": 26,
+    "duplicate_alerts": 0,
+    "wrong_merges": 0,
+    "background_fppi": 0.24528301886792453,
+    "actionable_false_alert_fppi": 0.24528301886792453,
+    "by_camera": {
+      "01": {
+        "unique_tp": 84,
+        "background_fp": 8
+      },
+      "03": {
+        "unique_tp": 16
+      },
+      "05": {
+        "unique_tp": 121,
+        "background_fp": 1
+      },
+      "07": {
+        "unique_tp": 164,
+        "background_fp": 17
+      },
+      "09": {
+        "unique_tp": 14
+      }
+    }
+  },
+  "grid": [
+    {
+      "rgb_threshold": 0.3,
+      "radius": 0.03,
+      "feasible": false,
+      "metrics": {
+        "pairs": 106,
+        "unique_gt": 413,
+        "unique_tp": 409,
+        "unique_recall": 0.9903147699757869,
+        "reports": 446,
+        "background_fp": 34,
+        "duplicate_alerts": 3,
+        "wrong_merges": 0,
+        "background_fppi": 0.32075471698113206,
+        "actionable_false_alert_fppi": 0.3490566037735849,
+        "by_camera": {
+          "01": {
+            "unique_tp": 87,
+            "background_fp": 10
+          },
+          "03": {
+            "unique_tp": 16
+          },
+          "05": {
+            "unique_tp": 123,
+            "duplicate_alerts": 2,
+            "background_fp": 6
+          },
+          "07": {
+            "unique_tp": 169,
+            "background_fp": 18,
+            "duplicate_alerts": 1
+          },
+          "09": {
+            "unique_tp": 14
+          }
+        }
+      }
+    },
+    {
+      "rgb_threshold": 0.3,
+      "radius": 0.13,
+      "feasible": false,
+      "metrics": {
+        "pairs": 106,
+        "unique_gt": 413,
+        "unique_tp": 409,
+        "unique_recall": 0.9903147699757869,
+        "reports": 443,
+        "background_fp": 33,
+        "duplicate_alerts": 1,
+        "wrong_merges": 0,
+        "background_fppi": 0.3113207547169811,
+        "actionable_false_alert_fppi": 0.32075471698113206,
+        "by_camera": {
+          "01": {
+            "unique_tp": 87,
+            "background_fp": 10
+          },
+          "03": {
+            "unique_tp": 16
+          },
+          "05": {
+            "unique_tp": 123,
+            "background_fp": 6
+          },
+          "07": {
+            "unique_tp": 169,
+            "background_fp": 17,
+            "duplicate_alerts": 1
+          },
+          "09": {
+            "unique_tp": 14
+          }
+        }
+      }
+    },
+    {
+      "rgb_threshold": 0.4,
+      "radius": 0.03,
+      "feasible": false,
+      "metrics": {
+        "pairs": 106,
+        "unique_gt": 413,
+        "unique_tp": 407,
+        "unique_recall": 0.9854721549636803,
+        "reports": 443,
+        "background_fp": 33,
+        "duplicate_alerts": 3,
+        "wrong_merges": 0,
+        "background_fppi": 0.3113207547169811,
+        "actionable_false_alert_fppi": 0.33962264150943394,
+        "by_camera": {
+          "01": {
+            "unique_tp": 87,
+            "background_fp": 10
+          },
+          "03": {
+            "unique_tp": 16
+          },
+          "05": {
+            "unique_tp": 123,
+            "duplicate_alerts": 2,
+            "background_fp": 5
+          },
+          "07": {
+            "unique_tp": 167,
+            "background_fp": 18,
+            "duplicate_alerts": 1
+          },
+          "09": {
+            "unique_tp": 14
+          }
+        }
+      }
+    },
+    {
+      "rgb_threshold": 0.4,
+      "radius": 0.13,
+      "feasible": false,
+      "metrics": {
+        "pairs": 106,
+        "unique_gt": 413,
+        "unique_tp": 407,
+        "unique_recall": 0.9854721549636803,
+        "reports": 440,
+        "background_fp": 32,
+        "duplicate_alerts": 1,
+        "wrong_merges": 0,
+        "background_fppi": 0.3018867924528302,
+        "actionable_false_alert_fppi": 0.3113207547169811,
+        "by_camera": {
+          "01": {
+            "unique_tp": 87,
+            "background_fp": 10
+          },
+          "03": {
+            "unique_tp": 16
+          },
+          "05": {
+            "unique_tp": 123,
+            "background_fp": 5
+          },
+          "07": {
+            "unique_tp": 167,
+            "background_fp": 17,
+            "duplicate_alerts": 1
+          },
+          "09": {
+            "unique_tp": 14
+          }
+        }
+      }
+    },
+    {
+      "rgb_threshold": 0.5,
+      "radius": 0.03,
+      "feasible": false,
+      "metrics": {
+        "pairs": 106,
+        "unique_gt": 413,
+        "unique_tp": 406,
+        "unique_recall": 0.9830508474576272,
+        "reports": 438,
+        "background_fp": 29,
+        "duplicate_alerts": 3,
+        "wrong_merges": 0,
+        "background_fppi": 0.27358490566037735,
+        "actionable_false_alert_fppi": 0.3018867924528302,
+        "by_camera": {
+          "01": {
+            "unique_tp": 87,
+            "background_fp": 10
+          },
+          "03": {
+            "unique_tp": 16
+          },
+          "05": {
+            "unique_tp": 123,
+            "duplicate_alerts": 2,
+            "background_fp": 1
+          },
+          "07": {
+            "unique_tp": 166,
+            "background_fp": 18,
+            "duplicate_alerts": 1
+          },
+          "09": {
+            "unique_tp": 14
+          }
+        }
+      }
+    },
+    {
+      "rgb_threshold": 0.5,
+      "radius": 0.13,
+      "feasible": false,
+      "metrics": {
+        "pairs": 106,
+        "unique_gt": 413,
+        "unique_tp": 405,
+        "unique_recall": 0.9806295399515739,
+        "reports": 434,
+        "background_fp": 28,
+        "duplicate_alerts": 1,
+        "wrong_merges": 1,
+        "background_fppi": 0.2641509433962264,
+        "actionable_false_alert_fppi": 0.27358490566037735,
+        "by_camera": {
+          "01": {
+            "unique_tp": 87,
+            "background_fp": 10
+          },
+          "03": {
+            "unique_tp": 16
+          },
+          "05": {
+            "unique_tp": 123,
+            "background_fp": 1
+          },
+          "07": {
+            "unique_tp": 165,
+            "background_fp": 17,
+            "wrong_merges": 1,
+            "duplicate_alerts": 1
+          },
+          "09": {
+            "unique_tp": 14
+          }
+        }
+      }
+    },
+    {
+      "rgb_threshold": 0.7,
+      "radius": 0.03,
+      "feasible": true,
+      "metrics": {
+        "pairs": 106,
+        "unique_gt": 413,
+        "unique_tp": 401,
+        "unique_recall": 0.9709443099273608,
+        "reports": 430,
+        "background_fp": 27,
+        "duplicate_alerts": 2,
+        "wrong_merges": 0,
+        "background_fppi": 0.25471698113207547,
+        "actionable_false_alert_fppi": 0.27358490566037735,
+        "by_camera": {
+          "01": {
+            "unique_tp": 86,
+            "background_fp": 8
+          },
+          "03": {
+            "unique_tp": 16
+          },
+          "05": {
+            "unique_tp": 121,
+            "duplicate_alerts": 2,
+            "background_fp": 2
+          },
+          "07": {
+            "unique_tp": 164,
+            "background_fp": 17
+          },
+          "09": {
+            "unique_tp": 14
+          }
+        }
+      }
+    },
+    {
+      "rgb_threshold": 0.7,
+      "radius": 0.13,
+      "feasible": true,
+      "metrics": {
+        "pairs": 106,
+        "unique_gt": 413,
+        "unique_tp": 401,
+        "unique_recall": 0.9709443099273608,
+        "reports": 428,
+        "background_fp": 27,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.25471698113207547,
+        "actionable_false_alert_fppi": 0.25471698113207547,
+        "by_camera": {
+          "01": {
+            "unique_tp": 86,
+            "background_fp": 8
+          },
+          "03": {
+            "unique_tp": 16
+          },
+          "05": {
+            "unique_tp": 121,
+            "background_fp": 2
+          },
+          "07": {
+            "unique_tp": 164,
+            "background_fp": 17
+          },
+          "09": {
+            "unique_tp": 14
+          }
+        }
+      }
+    }
+  ],
+  "selected": {
+    "mode": "rgb_association",
+    "rgb_threshold": 0.7,
+    "radius": 0.13,
+    "reason": "Predeclared feasible-then-TP ranking"
+  },
+  "diagnostic_dev_evaluated": false
+}

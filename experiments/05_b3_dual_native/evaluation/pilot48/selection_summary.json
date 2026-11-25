@@ -1,0 +1,22 @@
+{
+  "selection_rule": "9 evenly spaced pair IDs per camera 01/03/05/07/09, all 3 from camera 13",
+  "selection_uses_predictions": false,
+  "pairs": 48,
+  "rgb_gt": 152,
+  "ir_gt": 168,
+  "status": {
+    "shared_rgb_uncertain": 144,
+    "uncertain": 13,
+    "ir_only_common_fov": 11
+  },
+  "priority_rows": 33,
+  "camera_pairs": {
+    "01": 9,
+    "03": 9,
+    "05": 9,
+    "07": 9,
+    "09": 9,
+    "13": 3
+  },
+  "warning": "Exploratory sample from six correlated video sequences; do not treat frames as independent events"
+}

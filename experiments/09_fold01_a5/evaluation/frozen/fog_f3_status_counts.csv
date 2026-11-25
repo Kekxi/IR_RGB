@@ -1,0 +1,15 @@
+﻿fold01_split,fog_bin,provenance,state_group,count
+inner_val,high,auto_geometry_unreviewed,shared,878
+inner_val,high,non_auto_record,ir_only_common_fov,89
+inner_val,high,non_auto_record,other_ir_only,48
+inner_val,high,non_auto_record,shared,192
+inner_val,medium,auto_geometry_unreviewed,shared,11
+inner_val,medium,non_auto_record,ir_only_common_fov,4
+inner_val,medium,non_auto_record,shared,2
+outer,medium,non_auto_record,ir_only_common_fov,3
+outer,medium,non_auto_record,shared,3
+train,high,auto_geometry_unreviewed,shared,999
+train,high,non_auto_record,ir_only_common_fov,42
+train,high,non_auto_record,other_ir_only,30
+train,high,non_auto_record,shared,39
+train,medium,non_auto_record,shared,2

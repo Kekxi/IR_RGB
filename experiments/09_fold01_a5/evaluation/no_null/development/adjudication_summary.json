@@ -1,0 +1,65 @@
+{
+  "audit_csv_sha256": "33ee8bcd1bb36fb3f8dc1f2bbac10d6eb144779084e7ffa17b5ae6e66e50bd5a",
+  "reviewed_target_count": 47,
+  "adjudicated_counts": {
+    "true_null_in_fov_unrecognizable": 36,
+    "same_ship_rgb_missing_gt": 6,
+    "visible_missing_rgb_gt_no_same_candidate": 4,
+    "uncertain": 1
+  },
+  "prior_outside_fov_pages": [
+    9,
+    12,
+    17,
+    20,
+    22
+  ],
+  "prior_outside_fov_revised_to": {
+    "true_null_in_fov_unrecognizable": 4,
+    "same_ship_rgb_missing_gt": 1
+  },
+  "true_null_by_camera_event": [
+    {
+      "camera": "01",
+      "event": "20250117101739_2002_AT_352003977_1",
+      "targets": 1
+    },
+    {
+      "camera": "07",
+      "event": "20250117110751_2002_AT_414211000_1",
+      "targets": 35
+    }
+  ],
+  "same_candidate_pages": {
+    "1": 1,
+    "2": 1,
+    "6": 3,
+    "22": 5,
+    "40": 3,
+    "41": 3
+  },
+  "visible_missing_gt_pages": [
+    3,
+    5,
+    7,
+    25
+  ],
+  "uncertain_pages": [
+    4
+  ],
+  "candidate_object_type_uncertain_pages": [
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "corrected_candidate_pair_counts": {
+    "confirmed_null_different_identity": 54,
+    "confirmed_positive_rgb_gt_missing": 6,
+    "different_identity_visible_rgb_gt_missing": 4,
+    "masked_identity_uncertain": 1,
+    "confirmed_different_identity_rgb_gt_missing": 1
+  },
+  "source_label_versions_unchanged": true
+}

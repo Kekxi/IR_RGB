@@ -1,0 +1,566 @@
+{
+  "hypothesis": "At the already fixed thresholds, compare the E1 per-camera map with its global-only map; no parameter selection.",
+  "geometry_fit_limit": "Both maps were fitted using the same five events as the development blocks, so global-only is not event-independent.",
+  "blocks": {
+    "calibration": {
+      "overall": {
+        "per_camera": {
+          "pairs": 106,
+          "unique_gt": 413,
+          "unique_tp": 401,
+          "unique_recall": 0.9709443099273608,
+          "reports": 428,
+          "background_fp": 27,
+          "duplicate_alerts": 0,
+          "wrong_merges": 0,
+          "background_fppi": 0.25471698113207547,
+          "actionable_false_alert_fppi": 0.25471698113207547,
+          "by_camera": {
+            "01": {
+              "unique_tp": 86,
+              "background_fp": 8
+            },
+            "03": {
+              "unique_tp": 16
+            },
+            "05": {
+              "unique_tp": 121,
+              "background_fp": 2
+            },
+            "07": {
+              "unique_tp": 164,
+              "background_fp": 17
+            },
+            "09": {
+              "unique_tp": 14
+            }
+          }
+        },
+        "global_only": {
+          "pairs": 106,
+          "unique_gt": 413,
+          "unique_tp": 401,
+          "unique_recall": 0.9709443099273608,
+          "reports": 428,
+          "background_fp": 27,
+          "duplicate_alerts": 0,
+          "wrong_merges": 0,
+          "background_fppi": 0.25471698113207547,
+          "actionable_false_alert_fppi": 0.25471698113207547,
+          "by_camera": {
+            "01": {
+              "unique_tp": 86,
+              "background_fp": 8
+            },
+            "03": {
+              "unique_tp": 16
+            },
+            "05": {
+              "unique_tp": 121,
+              "background_fp": 2
+            },
+            "07": {
+              "unique_tp": 164,
+              "background_fp": 17
+            },
+            "09": {
+              "unique_tp": 14
+            }
+          }
+        }
+      },
+      "frames_with_changed_pairing": [],
+      "by_event": {
+        "20250117101739_2002_AT_352003977_1": {
+          "per_camera": {
+            "pairs": 29,
+            "unique_gt": 90,
+            "unique_tp": 86,
+            "unique_recall": 0.9555555555555556,
+            "reports": 94,
+            "background_fp": 8,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.27586206896551724,
+            "actionable_false_alert_fppi": 0.27586206896551724,
+            "by_camera": {
+              "01": {
+                "unique_tp": 86,
+                "background_fp": 8
+              }
+            }
+          },
+          "global_only": {
+            "pairs": 29,
+            "unique_gt": 90,
+            "unique_tp": 86,
+            "unique_recall": 0.9555555555555556,
+            "reports": 94,
+            "background_fp": 8,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.27586206896551724,
+            "actionable_false_alert_fppi": 0.27586206896551724,
+            "by_camera": {
+              "01": {
+                "unique_tp": 86,
+                "background_fp": 8
+              }
+            }
+          }
+        },
+        "20250117103141_2002_AT_413020540_1": {
+          "per_camera": {
+            "pairs": 3,
+            "unique_gt": 14,
+            "unique_tp": 14,
+            "unique_recall": 1.0,
+            "reports": 14,
+            "background_fp": 0,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.0,
+            "actionable_false_alert_fppi": 0.0,
+            "by_camera": {
+              "09": {
+                "unique_tp": 14
+              }
+            }
+          },
+          "global_only": {
+            "pairs": 3,
+            "unique_gt": 14,
+            "unique_tp": 14,
+            "unique_recall": 1.0,
+            "reports": 14,
+            "background_fp": 0,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.0,
+            "actionable_false_alert_fppi": 0.0,
+            "by_camera": {
+              "09": {
+                "unique_tp": 14
+              }
+            }
+          }
+        },
+        "20250117103454_2002_AT_413697880_1": {
+          "per_camera": {
+            "pairs": 34,
+            "unique_gt": 123,
+            "unique_tp": 121,
+            "unique_recall": 0.983739837398374,
+            "reports": 123,
+            "background_fp": 2,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.058823529411764705,
+            "actionable_false_alert_fppi": 0.058823529411764705,
+            "by_camera": {
+              "05": {
+                "unique_tp": 121,
+                "background_fp": 2
+              }
+            }
+          },
+          "global_only": {
+            "pairs": 34,
+            "unique_gt": 123,
+            "unique_tp": 121,
+            "unique_recall": 0.983739837398374,
+            "reports": 123,
+            "background_fp": 2,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.058823529411764705,
+            "actionable_false_alert_fppi": 0.058823529411764705,
+            "by_camera": {
+              "05": {
+                "unique_tp": 121,
+                "background_fp": 2
+              }
+            }
+          }
+        },
+        "20250117110751_2002_AT_414211000_1": {
+          "per_camera": {
+            "pairs": 32,
+            "unique_gt": 170,
+            "unique_tp": 164,
+            "unique_recall": 0.9647058823529412,
+            "reports": 181,
+            "background_fp": 17,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.53125,
+            "actionable_false_alert_fppi": 0.53125,
+            "by_camera": {
+              "07": {
+                "unique_tp": 164,
+                "background_fp": 17
+              }
+            }
+          },
+          "global_only": {
+            "pairs": 32,
+            "unique_gt": 170,
+            "unique_tp": 164,
+            "unique_recall": 0.9647058823529412,
+            "reports": 181,
+            "background_fp": 17,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.53125,
+            "actionable_false_alert_fppi": 0.53125,
+            "by_camera": {
+              "07": {
+                "unique_tp": 164,
+                "background_fp": 17
+              }
+            }
+          }
+        },
+        "20250312101233_2002_AT_413203610_1": {
+          "per_camera": {
+            "pairs": 8,
+            "unique_gt": 16,
+            "unique_tp": 16,
+            "unique_recall": 1.0,
+            "reports": 16,
+            "background_fp": 0,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.0,
+            "actionable_false_alert_fppi": 0.0,
+            "by_camera": {
+              "03": {
+                "unique_tp": 16
+              }
+            }
+          },
+          "global_only": {
+            "pairs": 8,
+            "unique_gt": 16,
+            "unique_tp": 16,
+            "unique_recall": 1.0,
+            "reports": 16,
+            "background_fp": 0,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.0,
+            "actionable_false_alert_fppi": 0.0,
+            "by_camera": {
+              "03": {
+                "unique_tp": 16
+              }
+            }
+          }
+        }
+      }
+    },
+    "diagnostic_dev": {
+      "overall": {
+        "per_camera": {
+          "pairs": 121,
+          "unique_gt": 449,
+          "unique_tp": 409,
+          "unique_recall": 0.910913140311804,
+          "reports": 463,
+          "background_fp": 53,
+          "duplicate_alerts": 1,
+          "wrong_merges": 0,
+          "background_fppi": 0.4380165289256198,
+          "actionable_false_alert_fppi": 0.4462809917355372,
+          "by_camera": {
+            "01": {
+              "unique_tp": 83,
+              "background_fp": 4
+            },
+            "03": {
+              "unique_tp": 21
+            },
+            "05": {
+              "unique_tp": 159,
+              "background_fp": 25
+            },
+            "07": {
+              "unique_tp": 108,
+              "duplicate_alerts": 1,
+              "background_fp": 24
+            },
+            "09": {
+              "unique_tp": 34
+            },
+            "13": {
+              "unique_tp": 4
+            }
+          }
+        },
+        "global_only": {
+          "pairs": 121,
+          "unique_gt": 449,
+          "unique_tp": 409,
+          "unique_recall": 0.910913140311804,
+          "reports": 463,
+          "background_fp": 53,
+          "duplicate_alerts": 1,
+          "wrong_merges": 0,
+          "background_fppi": 0.4380165289256198,
+          "actionable_false_alert_fppi": 0.4462809917355372,
+          "by_camera": {
+            "01": {
+              "unique_tp": 83,
+              "background_fp": 4
+            },
+            "03": {
+              "unique_tp": 21
+            },
+            "05": {
+              "unique_tp": 159,
+              "background_fp": 25
+            },
+            "07": {
+              "unique_tp": 108,
+              "duplicate_alerts": 1,
+              "background_fp": 24
+            },
+            "09": {
+              "unique_tp": 34
+            },
+            "13": {
+              "unique_tp": 4
+            }
+          }
+        }
+      },
+      "frames_with_changed_pairing": [],
+      "by_event": {
+        "20250117101739_2002_AT_352003977_1": {
+          "per_camera": {
+            "pairs": 31,
+            "unique_gt": 89,
+            "unique_tp": 83,
+            "unique_recall": 0.9325842696629213,
+            "reports": 87,
+            "background_fp": 4,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.12903225806451613,
+            "actionable_false_alert_fppi": 0.12903225806451613,
+            "by_camera": {
+              "01": {
+                "unique_tp": 83,
+                "background_fp": 4
+              }
+            }
+          },
+          "global_only": {
+            "pairs": 31,
+            "unique_gt": 89,
+            "unique_tp": 83,
+            "unique_recall": 0.9325842696629213,
+            "reports": 87,
+            "background_fp": 4,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.12903225806451613,
+            "actionable_false_alert_fppi": 0.12903225806451613,
+            "by_camera": {
+              "01": {
+                "unique_tp": 83,
+                "background_fp": 4
+              }
+            }
+          }
+        },
+        "20250117103141_2002_AT_413020540_1": {
+          "per_camera": {
+            "pairs": 6,
+            "unique_gt": 34,
+            "unique_tp": 34,
+            "unique_recall": 1.0,
+            "reports": 34,
+            "background_fp": 0,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.0,
+            "actionable_false_alert_fppi": 0.0,
+            "by_camera": {
+              "09": {
+                "unique_tp": 34
+              }
+            }
+          },
+          "global_only": {
+            "pairs": 6,
+            "unique_gt": 34,
+            "unique_tp": 34,
+            "unique_recall": 1.0,
+            "reports": 34,
+            "background_fp": 0,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.0,
+            "actionable_false_alert_fppi": 0.0,
+            "by_camera": {
+              "09": {
+                "unique_tp": 34
+              }
+            }
+          }
+        },
+        "20250117103454_2002_AT_413697880_1": {
+          "per_camera": {
+            "pairs": 37,
+            "unique_gt": 187,
+            "unique_tp": 159,
+            "unique_recall": 0.8502673796791443,
+            "reports": 184,
+            "background_fp": 25,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.6756756756756757,
+            "actionable_false_alert_fppi": 0.6756756756756757,
+            "by_camera": {
+              "05": {
+                "unique_tp": 159,
+                "background_fp": 25
+              }
+            }
+          },
+          "global_only": {
+            "pairs": 37,
+            "unique_gt": 187,
+            "unique_tp": 159,
+            "unique_recall": 0.8502673796791443,
+            "reports": 184,
+            "background_fp": 25,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.6756756756756757,
+            "actionable_false_alert_fppi": 0.6756756756756757,
+            "by_camera": {
+              "05": {
+                "unique_tp": 159,
+                "background_fp": 25
+              }
+            }
+          }
+        },
+        "20250117110751_2002_AT_414211000_1": {
+          "per_camera": {
+            "pairs": 34,
+            "unique_gt": 108,
+            "unique_tp": 108,
+            "unique_recall": 1.0,
+            "reports": 133,
+            "background_fp": 24,
+            "duplicate_alerts": 1,
+            "wrong_merges": 0,
+            "background_fppi": 0.7058823529411765,
+            "actionable_false_alert_fppi": 0.7352941176470589,
+            "by_camera": {
+              "07": {
+                "unique_tp": 108,
+                "duplicate_alerts": 1,
+                "background_fp": 24
+              }
+            }
+          },
+          "global_only": {
+            "pairs": 34,
+            "unique_gt": 108,
+            "unique_tp": 108,
+            "unique_recall": 1.0,
+            "reports": 133,
+            "background_fp": 24,
+            "duplicate_alerts": 1,
+            "wrong_merges": 0,
+            "background_fppi": 0.7058823529411765,
+            "actionable_false_alert_fppi": 0.7352941176470589,
+            "by_camera": {
+              "07": {
+                "unique_tp": 108,
+                "duplicate_alerts": 1,
+                "background_fp": 24
+              }
+            }
+          }
+        },
+        "20250312101233_2002_AT_413203610_1": {
+          "per_camera": {
+            "pairs": 10,
+            "unique_gt": 25,
+            "unique_tp": 21,
+            "unique_recall": 0.84,
+            "reports": 21,
+            "background_fp": 0,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.0,
+            "actionable_false_alert_fppi": 0.0,
+            "by_camera": {
+              "03": {
+                "unique_tp": 21
+              }
+            }
+          },
+          "global_only": {
+            "pairs": 10,
+            "unique_gt": 25,
+            "unique_tp": 21,
+            "unique_recall": 0.84,
+            "reports": 21,
+            "background_fp": 0,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.0,
+            "actionable_false_alert_fppi": 0.0,
+            "by_camera": {
+              "03": {
+                "unique_tp": 21
+              }
+            }
+          }
+        },
+        "20250314154739_2002_AT_200000000_1": {
+          "per_camera": {
+            "pairs": 3,
+            "unique_gt": 6,
+            "unique_tp": 4,
+            "unique_recall": 0.6666666666666666,
+            "reports": 4,
+            "background_fp": 0,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.0,
+            "actionable_false_alert_fppi": 0.0,
+            "by_camera": {
+              "13": {
+                "unique_tp": 4
+              }
+            }
+          },
+          "global_only": {
+            "pairs": 3,
+            "unique_gt": 6,
+            "unique_tp": 4,
+            "unique_recall": 0.6666666666666666,
+            "reports": 4,
+            "background_fp": 0,
+            "duplicate_alerts": 0,
+            "wrong_merges": 0,
+            "background_fppi": 0.0,
+            "actionable_false_alert_fppi": 0.0,
+            "by_camera": {
+              "13": {
+                "unique_tp": 4
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

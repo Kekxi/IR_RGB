@@ -1,0 +1,296 @@
+{
+  "method": "calibration_fixed_thresholds_with_descriptive_test_grid",
+  "event_definition": "one paired RGB/IR frame, not an independent acquisition event",
+  "test_boundary": "temporal validation blocks; detector weights previously selected on these scenes",
+  "test_grid_warning": "2D test grid and envelope are descriptive; deployment thresholds come only from calibration",
+  "grid": {
+    "ir_and_rgb": "0.00..1.00 by 0.05 plus 1.01",
+    "ir_only": "0.00..1.00 by 0.01 plus 1.01"
+  },
+  "fixed": {
+    "IR-only": {
+      "thresholds_selected_on_calibration": {
+        "ir_threshold": 0.22
+      },
+      "calibration": {
+        "pairs": 106,
+        "unique_gt": 413,
+        "unique_tp": 399,
+        "unique_recall": 0.9661016949152542,
+        "reports": 425,
+        "background_fp": 26,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.24528301886792453,
+        "actionable_false_alert_fppi": 0.24528301886792453,
+        "by_camera": {
+          "01": {
+            "unique_tp": 84,
+            "background_fp": 8
+          },
+          "03": {
+            "unique_tp": 16
+          },
+          "05": {
+            "unique_tp": 121,
+            "background_fp": 1
+          },
+          "07": {
+            "unique_tp": 164,
+            "background_fp": 17
+          },
+          "09": {
+            "unique_tp": 14
+          }
+        },
+        "macro_frame_event_recall": 0.9747304582210242,
+        "duplicate_per_image": 0.0,
+        "wrong_merge_per_image": 0.0
+      },
+      "test": {
+        "pairs": 121,
+        "unique_gt": 449,
+        "unique_tp": 408,
+        "unique_recall": 0.9086859688195991,
+        "reports": 460,
+        "background_fp": 52,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.4297520661157025,
+        "actionable_false_alert_fppi": 0.4297520661157025,
+        "by_camera": {
+          "01": {
+            "unique_tp": 82,
+            "background_fp": 5
+          },
+          "03": {
+            "unique_tp": 21
+          },
+          "05": {
+            "unique_tp": 159,
+            "background_fp": 23
+          },
+          "07": {
+            "unique_tp": 108,
+            "background_fp": 24
+          },
+          "09": {
+            "unique_tp": 34
+          },
+          "13": {
+            "unique_tp": 4
+          }
+        },
+        "macro_frame_event_recall": 0.9125147579693034,
+        "duplicate_per_image": 0.0,
+        "wrong_merge_per_image": 0.0
+      }
+    },
+    "E1 geometry + B3 RGB": {
+      "thresholds_selected_on_calibration": {
+        "ir_threshold": 0.55,
+        "rgb_threshold": 0.3,
+        "radius": 0.13
+      },
+      "calibration": {
+        "pairs": 106,
+        "unique_gt": 413,
+        "unique_tp": 403,
+        "unique_recall": 0.9757869249394673,
+        "reports": 425,
+        "background_fp": 21,
+        "duplicate_alerts": 1,
+        "wrong_merges": 0,
+        "background_fppi": 0.19811320754716982,
+        "actionable_false_alert_fppi": 0.20754716981132076,
+        "by_camera": {
+          "01": {
+            "unique_tp": 87,
+            "background_fp": 4
+          },
+          "03": {
+            "unique_tp": 16
+          },
+          "05": {
+            "unique_tp": 119,
+            "background_fp": 9
+          },
+          "07": {
+            "unique_tp": 167,
+            "background_fp": 8,
+            "duplicate_alerts": 1
+          },
+          "09": {
+            "unique_tp": 14
+          }
+        },
+        "macro_frame_event_recall": 0.9789308176100628,
+        "duplicate_per_image": 0.009433962264150943,
+        "wrong_merge_per_image": 0.0
+      },
+      "test": {
+        "pairs": 121,
+        "unique_gt": 449,
+        "unique_tp": 413,
+        "unique_recall": 0.9198218262806236,
+        "reports": 439,
+        "background_fp": 25,
+        "duplicate_alerts": 1,
+        "wrong_merges": 2,
+        "background_fppi": 0.2066115702479339,
+        "actionable_false_alert_fppi": 0.21487603305785125,
+        "by_camera": {
+          "01": {
+            "unique_tp": 85,
+            "background_fp": 2
+          },
+          "03": {
+            "unique_tp": 22,
+            "wrong_merges": 1
+          },
+          "05": {
+            "unique_tp": 164,
+            "background_fp": 7
+          },
+          "07": {
+            "unique_tp": 105,
+            "duplicate_alerts": 1,
+            "background_fp": 16,
+            "wrong_merges": 1
+          },
+          "09": {
+            "unique_tp": 34
+          },
+          "13": {
+            "unique_tp": 3
+          }
+        },
+        "macro_frame_event_recall": 0.9237308146399056,
+        "duplicate_per_image": 0.008264462809917356,
+        "wrong_merge_per_image": 0.01652892561983471
+      }
+    },
+    "E2 learned match, no FoV gate": {
+      "thresholds_selected_on_calibration": {
+        "ir_threshold": 0.55,
+        "rgb_threshold": 0.4,
+        "match_threshold": 0.3
+      },
+      "calibration": {
+        "pairs": 106,
+        "unique_gt": 413,
+        "unique_tp": 401,
+        "unique_recall": 0.9709443099273608,
+        "reports": 423,
+        "background_fp": 21,
+        "duplicate_alerts": 1,
+        "wrong_merges": 0,
+        "background_fppi": 0.19811320754716982,
+        "actionable_false_alert_fppi": 0.20754716981132076,
+        "by_camera": {
+          "01": {
+            "unique_tp": 87,
+            "background_fp": 4
+          },
+          "03": {
+            "unique_tp": 16
+          },
+          "05": {
+            "unique_tp": 119,
+            "background_fp": 8
+          },
+          "07": {
+            "unique_tp": 165,
+            "background_fp": 9,
+            "duplicate_alerts": 1
+          },
+          "09": {
+            "unique_tp": 14
+          }
+        },
+        "macro_frame_event_recall": 0.9760107816711591,
+        "duplicate_per_image": 0.009433962264150943,
+        "wrong_merge_per_image": 0.0
+      },
+      "test": {
+        "pairs": 121,
+        "unique_gt": 449,
+        "unique_tp": 413,
+        "unique_recall": 0.9198218262806236,
+        "reports": 443,
+        "background_fp": 27,
+        "duplicate_alerts": 3,
+        "wrong_merges": 0,
+        "background_fppi": 0.2231404958677686,
+        "actionable_false_alert_fppi": 0.24793388429752067,
+        "by_camera": {
+          "01": {
+            "unique_tp": 85,
+            "background_fp": 2,
+            "duplicate_alerts": 1
+          },
+          "03": {
+            "unique_tp": 22
+          },
+          "05": {
+            "unique_tp": 163,
+            "background_fp": 9
+          },
+          "07": {
+            "unique_tp": 106,
+            "duplicate_alerts": 2,
+            "background_fp": 16
+          },
+          "09": {
+            "unique_tp": 34
+          },
+          "13": {
+            "unique_tp": 3
+          }
+        },
+        "macro_frame_event_recall": 0.9227666273120818,
+        "duplicate_per_image": 0.024793388429752067,
+        "wrong_merge_per_image": 0.0
+      }
+    }
+  },
+  "test_curve_rows": 1070,
+  "camera_07": [
+    {
+      "system": "E1 geometry + B3 RGB",
+      "camera": "07",
+      "images": 34,
+      "gt_events": 108,
+      "detected_events": 105,
+      "micro_recall": 0.9722222222222222,
+      "macro_frame_event_recall": 0.9730392156862746,
+      "background_fp_per_image": 0.47058823529411764,
+      "duplicate_reports_per_image": 0.029411764705882353,
+      "wrong_merges_per_image": 0.029411764705882353
+    },
+    {
+      "system": "E2 learned match, no FoV gate",
+      "camera": "07",
+      "images": 34,
+      "gt_events": 108,
+      "detected_events": 106,
+      "micro_recall": 0.9814814814814815,
+      "macro_frame_event_recall": 0.9803921568627452,
+      "background_fp_per_image": 0.47058823529411764,
+      "duplicate_reports_per_image": 0.058823529411764705,
+      "wrong_merges_per_image": 0.0
+    },
+    {
+      "system": "IR-only",
+      "camera": "07",
+      "images": 34,
+      "gt_events": 108,
+      "detected_events": 108,
+      "micro_recall": 1.0,
+      "macro_frame_event_recall": 1.0,
+      "background_fp_per_image": 0.7058823529411765,
+      "duplicate_reports_per_image": 0.0,
+      "wrong_merges_per_image": 0.0
+    }
+  ]
+}

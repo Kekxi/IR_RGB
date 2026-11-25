@@ -1,0 +1,135 @@
+{
+  "source_pairs": 2145,
+  "fold01_distribution": {
+    "train": 1361,
+    "outer": 440,
+    "inner_val": 342,
+    "excluded": 2
+  },
+  "weak_labels_total": 877,
+  "train_calibration_count": 421,
+  "thresholds_train_only": [
+    -4.610769990982844,
+    2.0036197069015906
+  ],
+  "weak_label_agreement_all": 0.7571265678449259,
+  "auc": {
+    "horizon_decay": {
+      "raw_auc": 0.7231359649122807,
+      "oriented_auc": 0.7231359649122807,
+      "fog_higher_direction": 1
+    },
+    "t_median": {
+      "raw_auc": 0.0026890142021720968,
+      "oriented_auc": 0.997310985797828,
+      "fog_higher_direction": -1
+    },
+    "t_p10": {
+      "raw_auc": 0.9688413742690059,
+      "oriented_auc": 0.9688413742690059,
+      "fog_higher_direction": 1
+    },
+    "global_gradient": {
+      "raw_auc": 0.7280440685045948,
+      "oriented_auc": 0.7280440685045948,
+      "fog_higher_direction": 1
+    },
+    "rgb_ir_contrast_ratio": {
+      "raw_auc": 0.38471177944862156,
+      "oriented_auc": 0.6152882205513784,
+      "fog_higher_direction": -1
+    },
+    "rgb_combined": {
+      "train_auc": 1.0,
+      "cross_event_auc": null
+    },
+    "crossmodal_combined": {
+      "train_auc": 1.0,
+      "cross_event_auc": null
+    }
+  },
+  "rgb_model": {
+    "features": [
+      "horizon_decay",
+      "t_median",
+      "t_p10",
+      "global_gradient"
+    ],
+    "mean": [
+      0.22809867237857284,
+      0.2672839307728403,
+      0.12647288145758476,
+      1.0821014934367634
+    ],
+    "std": [
+      0.418848352894386,
+      0.07437243558745814,
+      0.02954556951845516,
+      0.15489496085675253
+    ],
+    "beta": [
+      0.21951574024251078,
+      -4.1473828789105,
+      1.2408083575885922,
+      2.2470579357154867,
+      2.1406458834488076
+    ]
+  },
+  "crossmodal_model": {
+    "features": [
+      "horizon_decay",
+      "t_median",
+      "t_p10",
+      "global_gradient",
+      "rgb_ir_contrast_ratio"
+    ],
+    "mean": [
+      0.22809867237857284,
+      0.2672839307728403,
+      0.12647288145758476,
+      1.0821014934367634,
+      0.2324121888558825
+    ],
+    "std": [
+      0.418848352894386,
+      0.07437243558745814,
+      0.02954556951845516,
+      0.15489496085675253,
+      0.20637402396682972
+    ],
+    "beta": [
+      0.04786274870292489,
+      -3.40238622925649,
+      0.9607615929510931,
+      2.8743871987884257,
+      -1.0708096812797612,
+      2.3755848713241523
+    ]
+  },
+  "bin_distribution": {
+    "excluded": {
+      "high": 0,
+      "low": 2,
+      "medium": 0
+    },
+    "inner_val": {
+      "high": 338,
+      "low": 0,
+      "medium": 4
+    },
+    "outer": {
+      "high": 87,
+      "low": 92,
+      "medium": 261
+    },
+    "train": {
+      "high": 454,
+      "low": 454,
+      "medium": 453
+    }
+  },
+  "excluded_ids": [
+    "mtdsp_08_20250117093138",
+    "mtdsp_11_20250124122254"
+  ]
+}

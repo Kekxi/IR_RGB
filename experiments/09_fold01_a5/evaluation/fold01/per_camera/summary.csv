@@ -1,0 +1,11 @@
+﻿camera,model,head,images,mAP50,mAP50_95,recall,log
+01,rgb,rgb,163,0.986348068193985,0.8635969049803128,0.9781021897810219,E:\HEU_4151\RGB_IR\fog_ship_experiments_20261019\runs_a4_fold01\native_eval_20261103\per_camera\camera01\rgb.log
+01,ir,ir,163,0.9856630127651489,0.871198591156151,0.9479392624728851,E:\HEU_4151\RGB_IR\fog_ship_experiments_20261019\runs_a4_fold01\native_eval_20261103\per_camera\camera01\ir.log
+01,b1,rgb,163,0.985231201867164,0.8483022146125861,0.9599307907504444,E:\HEU_4151\RGB_IR\fog_ship_experiments_20261019\runs_a4_fold01\native_eval_20261103\per_camera\camera01\b1.log
+01,b3_rgb,rgb,163,0.9861676804806035,0.842971259470418,0.972220013764154,E:\HEU_4151\RGB_IR\fog_ship_experiments_20261019\runs_a4_fold01\native_eval_20261103\per_camera\camera01\b3_rgb.log
+01,b3_ir,ir,163,0.9796190632235695,0.8616628167125209,0.93058568329718,E:\HEU_4151\RGB_IR\fog_ship_experiments_20261019\runs_a4_fold01\native_eval_20261103\per_camera\camera01\b3_ir.log
+07,rgb,rgb,179,0.9758441705992604,0.7942071540166081,0.9419642857142857,E:\HEU_4151\RGB_IR\fog_ship_experiments_20261019\runs_a4_fold01\native_eval_20261103\per_camera\camera07\rgb.log
+07,ir,ir,179,0.9891444731124335,0.8841701936015021,0.9737876802096985,E:\HEU_4151\RGB_IR\fog_ship_experiments_20261019\runs_a4_fold01\native_eval_20261103\per_camera\camera07\ir.log
+07,b1,rgb,179,0.9733434689382571,0.7808961997207371,0.9494047619047619,E:\HEU_4151\RGB_IR\fog_ship_experiments_20261019\runs_a4_fold01\native_eval_20261103\per_camera\camera07\b1.log
+07,b3_rgb,rgb,179,0.9724153334091596,0.7885895928452951,0.9613095238095238,E:\HEU_4151\RGB_IR\fog_ship_experiments_20261019\runs_a4_fold01\native_eval_20261103\per_camera\camera07\b3_rgb.log
+07,b3_ir,ir,179,0.9854775733090334,0.8867290780247432,0.9393672261195004,E:\HEU_4151\RGB_IR\fog_ship_experiments_20261019\runs_a4_fold01\native_eval_20261103\per_camera\camera07\b3_ir.log

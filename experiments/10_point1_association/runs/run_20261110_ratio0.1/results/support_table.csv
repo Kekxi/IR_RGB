@@ -1,0 +1,10 @@
+﻿distance_band,density_band,positive,negative,events,supported
+below_critical,0,0,0,0,False
+below_critical,1,7,0,3,False
+below_critical,2,81,0,3,False
+critical,0,0,0,0,False
+critical,1,1,4,2,False
+critical,2,4,12,2,True
+outer_candidate_band,0,0,0,0,False
+outer_candidate_band,1,0,10,3,False
+outer_candidate_band,2,0,74,3,False

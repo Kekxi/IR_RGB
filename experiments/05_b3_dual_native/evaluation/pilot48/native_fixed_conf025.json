@@ -1,0 +1,42 @@
+{
+  "rgb_only": {
+    "threshold": 0.25,
+    "native_tp": 142,
+    "native_gt": 152,
+    "native_recall": 0.9342105263157895,
+    "false_positives": 15,
+    "fppi": 0.3125
+  },
+  "ir_only": {
+    "threshold": 0.25,
+    "native_tp": 158,
+    "native_gt": 168,
+    "native_recall": 0.9404761904761905,
+    "false_positives": 8,
+    "fppi": 0.16666666666666666
+  },
+  "b1": {
+    "threshold": 0.25,
+    "native_tp": 144,
+    "native_gt": 152,
+    "native_recall": 0.9473684210526315,
+    "false_positives": 10,
+    "fppi": 0.20833333333333334
+  },
+  "b3_rgb": {
+    "threshold": 0.25,
+    "native_tp": 143,
+    "native_gt": 152,
+    "native_recall": 0.9407894736842105,
+    "false_positives": 8,
+    "fppi": 0.16666666666666666
+  },
+  "b3_ir": {
+    "threshold": 0.25,
+    "native_tp": 158,
+    "native_gt": 168,
+    "native_recall": 0.9404761904761905,
+    "false_positives": 12,
+    "fppi": 0.25
+  }
+}

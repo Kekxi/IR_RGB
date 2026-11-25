@@ -1,0 +1,24 @@
+{
+  "checkpoint_sha256": "2ca6a28cd8d382b3a6b65919dcf1a19a3b818ae456074865fb83da0b690c0b05",
+  "manifest_sha256": "5f26bcd0f0aa281d92ed1941f4d5606f720513df8b0b79a508251dce15d55104",
+  "split": "val",
+  "condition": "normal",
+  "model_label": "ir_original_same155",
+  "stats": {
+    "metrics/precision(B)": 0.7100392764989579,
+    "metrics/recall(B)": 0.5506055858619961,
+    "metrics/mAP50(B)": 0.5829862164792702,
+    "metrics/mAP50-95(B)": 0.22073204049276668,
+    "fitness": 0.25695745809141707
+  },
+  "threshold_diagnostics": {
+    "confidence_threshold": 0.25,
+    "iou_threshold": 0.5,
+    "tp": 298,
+    "fp": 177,
+    "fn": 209,
+    "false_positives_per_image": 1.1419354838709677,
+    "duplicate_predictions": 36,
+    "duplicate_rate_per_target": 0.07100591715976332
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "candidate_answers": 128,
+  "recheck_answers": 2,
+  "new_event_frames": 36,
+  "new_event_count": 6,
+  "new_events_without_candidates": [
+    "mtdsp_12_20250114144501"
+  ],
+  "missing_export_frames_recovered": 44,
+  "missing_supervision_objects_remaining": [],
+  "by_event": {
+    "20250106102221_2002_AT_412450000_1": 17,
+    "20250106103943_2002_AT_413212990_1": 24,
+    "20250114144131_2002_AT_200000000_1": 19,
+    "20250117093108_2002_AT_413324410_1": 32,
+    "20250124121318_2002_AT_414150000_1": 12,
+    "20250305103638_2002_AT_413203610_1": 24
+  },
+  "by_band": {
+    "below": 64,
+    "far": 36,
+    "critical": 28
+  },
+  "candidate_csv_sha256": "137340f6e6d3989efe9917ac84393b6efef1f28d3c937f2dff6dff4058f9be7f",
+  "status": "labels_pending; no new probability training or held-out performance claims"
+}

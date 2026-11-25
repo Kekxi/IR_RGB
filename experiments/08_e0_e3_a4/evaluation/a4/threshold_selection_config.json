@@ -1,0 +1,19 @@
+{
+  "stage": "A4 fixed-threshold calibration after the structural pilot",
+  "prior_pilot_seen": "The same 106-pair calibration block showed IR-only 399/413 TP and 26 background FP at IR 0.22; RGB 0.30/radius 0.13 showed 409/413 TP, 33 background FP and 1 duplicate. This rule is chosen after that pilot, so the diagnostic_dev result is descriptive development evidence.",
+  "hypothesis": "A stricter RGB threshold or smaller match radius can retain some extra unique targets with fewer added false reports while preserving every IR-native prediction.",
+  "fixed_ir_detector": "independent ir_only branch",
+  "fixed_ir_threshold": 0.22,
+  "rgb_detector": "b3_rgb",
+  "rgb_threshold_candidates": [0.3, 0.4, 0.5, 0.7],
+  "association_radius_candidates": [0.03, 0.13],
+  "configuration_count": 8,
+  "geometry": "frozen original E1 affine; no FoV hard gate",
+  "matching": "one-to-one Hungarian with explicit null, no ambiguity rejection in this grid",
+  "calibration_block_size": 106,
+  "selection_rule": "Among configurations with zero known different-ship merges and actionable false alerts per frame <= 0.30, maximize known unique TP; then minimize actionable false alerts, then duplicate reports, then prefer smaller radius and higher RGB threshold. If none has more unique TP than the IR-only baseline, select IR-only.",
+  "diagnostic_dev_after_selection": "Run exactly one selected configuration and the IR-only comparison on the existing 121-pair diagnostic development block. It is not an independent held-out test because this project has viewed this block before.",
+  "preservation_gate": "Every IR prediction at threshold 0.22 must occur exactly once in every report configuration. Empty RGB candidates must reproduce IR-only exactly.",
+  "metrics": ["known unique TP and recall", "background false alerts per frame", "duplicate reports per frame", "wrong merges per frame", "per-event results", "sequence 07"],
+  "limits": "Working UIDs are evaluation-only. A raw black/blurred RGB network-input experiment is separate and is not simulated by this candidate-list search."
+}

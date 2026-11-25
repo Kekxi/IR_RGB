@@ -1,0 +1,61 @@
+{
+  "pairs": 633,
+  "unique_gt": 2353,
+  "provenance": "454 manually checked, 1888 assistant-assisted rows accepted as working labels",
+  "split_sizes": {
+    "train": 366,
+    "calibration": 106,
+    "test": 121,
+    "gap": 40
+  },
+  "evaluation_boundary": "Exploratory: detector checkpoints already used these validation scenes",
+  "budget_fppi": 0.25,
+  "ir_only_hit": 2243,
+  "b3_hit": 2224,
+  "ir_only_win": 35,
+  "b3_only_win": 16,
+  "by_camera": {
+    "01": {
+      "gt": 462,
+      "ir_hit": 435,
+      "b3_hit": 430,
+      "ir_only_win": 8,
+      "b3_only_win": 3
+    },
+    "03": {
+      "gt": 120,
+      "ir_hit": 97,
+      "b3_hit": 98,
+      "ir_only_win": 2,
+      "b3_only_win": 3
+    },
+    "05": {
+      "gt": 808,
+      "ir_hit": 774,
+      "b3_hit": 771,
+      "ir_only_win": 6,
+      "b3_only_win": 3
+    },
+    "07": {
+      "gt": 766,
+      "ir_hit": 748,
+      "b3_hit": 735,
+      "ir_only_win": 17,
+      "b3_only_win": 4
+    },
+    "09": {
+      "gt": 191,
+      "ir_hit": 185,
+      "b3_hit": 185,
+      "ir_only_win": 1,
+      "b3_only_win": 1
+    },
+    "13": {
+      "gt": 6,
+      "ir_hit": 4,
+      "b3_hit": 5,
+      "ir_only_win": 1,
+      "b3_only_win": 2
+    }
+  }
+}

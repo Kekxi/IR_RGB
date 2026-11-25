@@ -1,0 +1,47 @@
+{
+  "reviewed": 95,
+  "matched_v4": 77,
+  "unmatched_v4": 18,
+  "all_conf0.05": {
+    "n": 77,
+    "both_hit": 42,
+    "rgb_only": 5,
+    "dual_only": 13,
+    "both_miss": 17
+  },
+  "all_conf0.25": {
+    "n": 77,
+    "both_hit": 34,
+    "rgb_only": 3,
+    "dual_only": 17,
+    "both_miss": 23
+  },
+  "far_conf0.05": {
+    "n": 29,
+    "both_hit": 11,
+    "rgb_only": 1,
+    "dual_only": 11,
+    "both_miss": 6
+  },
+  "far_conf0.25": {
+    "n": 29,
+    "both_hit": 8,
+    "rgb_only": 2,
+    "dual_only": 13,
+    "both_miss": 6
+  },
+  "middle_conf0.05": {
+    "n": 48,
+    "both_hit": 31,
+    "rgb_only": 4,
+    "dual_only": 2,
+    "both_miss": 11
+  },
+  "middle_conf0.25": {
+    "n": 48,
+    "both_hit": 26,
+    "rgb_only": 1,
+    "dual_only": 4,
+    "both_miss": 17
+  }
+}

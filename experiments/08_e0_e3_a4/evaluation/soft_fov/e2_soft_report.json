@@ -1,0 +1,338 @@
+{
+  "method": "learned_matching_explicit_null_no_fov_gate",
+  "source": "E:\\HEU_4151\\RGB_IR\\outputs\\b3_local_e0_e3_20261028",
+  "budget_actionable_false_alert_fppi": 0.25,
+  "fov_use": "report_status_only; never blocks association",
+  "fov_report_cutoff_from_calibration": {
+    "cutoff": 0.5,
+    "balanced_accuracy": 0.9241293532338308,
+    "inside_total": 402,
+    "outside_total": 9,
+    "inside_correct": 341,
+    "outside_correct": 9
+  },
+  "status_warning": "Working correspondence provides proxy classes: common FoV without RGB GT does not prove visually unrecognizable; no match does not prove outside FoV. GT-box matrices are oracle-location diagnostics. Operational matrices include only detected IR GTs; missing IR detections are counted separately. Manual subset is small and provisional.",
+  "test_boundary": "exploratory temporal blocks from validation scenes already used for detector selection",
+  "manual_review_items_mapped": 9,
+  "results": {
+    "rgb_only_plus_ir": {
+      "rgb_variant": "rgb_only",
+      "thresholds": {
+        "ir_threshold": 0.22,
+        "rgb_threshold": 0.95,
+        "match_threshold": 0.3
+      },
+      "calibration_budget_met": true,
+      "calibration": {
+        "pairs": 106,
+        "unique_gt": 413,
+        "unique_tp": 399,
+        "unique_recall": 0.9661016949152542,
+        "reports": 425,
+        "background_fp": 26,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.24528301886792453,
+        "actionable_false_alert_fppi": 0.24528301886792453,
+        "by_camera": {
+          "01": {
+            "unique_tp": 84,
+            "background_fp": 8
+          },
+          "03": {
+            "unique_tp": 16
+          },
+          "05": {
+            "unique_tp": 121,
+            "background_fp": 1
+          },
+          "07": {
+            "unique_tp": 164,
+            "background_fp": 17
+          },
+          "09": {
+            "unique_tp": 14
+          }
+        },
+        "paired_reports": 0,
+        "correct_uid_pairs": 0,
+        "rgb_only_reports": 0
+      },
+      "test": {
+        "pairs": 121,
+        "unique_gt": 449,
+        "unique_tp": 408,
+        "unique_recall": 0.9086859688195991,
+        "reports": 460,
+        "background_fp": 52,
+        "duplicate_alerts": 0,
+        "wrong_merges": 0,
+        "background_fppi": 0.4297520661157025,
+        "actionable_false_alert_fppi": 0.4297520661157025,
+        "by_camera": {
+          "01": {
+            "unique_tp": 82,
+            "background_fp": 5
+          },
+          "03": {
+            "unique_tp": 21
+          },
+          "05": {
+            "unique_tp": 159,
+            "background_fp": 23
+          },
+          "07": {
+            "unique_tp": 108,
+            "background_fp": 24
+          },
+          "09": {
+            "unique_tp": 34
+          },
+          "13": {
+            "unique_tp": 4
+          }
+        },
+        "paired_reports": 0,
+        "correct_uid_pairs": 0,
+        "rgb_only_reports": 0
+      },
+      "status_audit": {
+        "gt_box_diagnostic_proxy_matrix": {
+          "outside": {
+            "outside": 20,
+            "inside_no_rgb_gt": 5,
+            "both_annotated": 0
+          },
+          "inside_no_rgb_gt": {
+            "outside": 10,
+            "inside_no_rgb_gt": 37,
+            "both_annotated": 0
+          },
+          "both_annotated": {
+            "outside": 96,
+            "inside_no_rgb_gt": 275,
+            "both_annotated": 0
+          }
+        },
+        "gt_box_diagnostic_manual_matrix": {
+          "outside": {
+            "outside": 1,
+            "inside_no_rgb_gt": 1,
+            "both_annotated": 0
+          },
+          "inside_no_rgb_gt": {
+            "outside": 1,
+            "inside_no_rgb_gt": 0,
+            "both_annotated": 0
+          },
+          "both_annotated": {
+            "outside": 2,
+            "inside_no_rgb_gt": 4,
+            "both_annotated": 0
+          }
+        },
+        "operational_detected_ir_proxy_matrix": {
+          "outside": {
+            "outside": 18,
+            "inside_no_rgb_gt": 3,
+            "both_annotated": 0
+          },
+          "inside_no_rgb_gt": {
+            "outside": 7,
+            "inside_no_rgb_gt": 37,
+            "both_annotated": 0
+          },
+          "both_annotated": {
+            "outside": 75,
+            "inside_no_rgb_gt": 268,
+            "both_annotated": 0
+          }
+        },
+        "operational_detected_ir_manual_matrix": {
+          "outside": {
+            "outside": 1,
+            "inside_no_rgb_gt": 1,
+            "both_annotated": 0
+          },
+          "inside_no_rgb_gt": {
+            "outside": 1,
+            "inside_no_rgb_gt": 0,
+            "both_annotated": 0
+          },
+          "both_annotated": {
+            "outside": 1,
+            "inside_no_rgb_gt": 5,
+            "both_annotated": 0
+          }
+        },
+        "no_ir_detection_by_proxy_truth": {
+          "outside": 4,
+          "inside_no_rgb_gt": 3,
+          "both_annotated": 28
+        },
+        "manual_review_n": 9
+      }
+    },
+    "b3_rgb_plus_ir": {
+      "rgb_variant": "b3_rgb",
+      "thresholds": {
+        "ir_threshold": 0.55,
+        "rgb_threshold": 0.4,
+        "match_threshold": 0.3
+      },
+      "calibration_budget_met": true,
+      "calibration": {
+        "pairs": 106,
+        "unique_gt": 413,
+        "unique_tp": 401,
+        "unique_recall": 0.9709443099273608,
+        "reports": 423,
+        "background_fp": 21,
+        "duplicate_alerts": 1,
+        "wrong_merges": 0,
+        "background_fppi": 0.19811320754716982,
+        "actionable_false_alert_fppi": 0.20754716981132076,
+        "by_camera": {
+          "01": {
+            "unique_tp": 87,
+            "background_fp": 4
+          },
+          "03": {
+            "unique_tp": 16
+          },
+          "05": {
+            "unique_tp": 119,
+            "background_fp": 8
+          },
+          "07": {
+            "unique_tp": 165,
+            "background_fp": 9,
+            "duplicate_alerts": 1
+          },
+          "09": {
+            "unique_tp": 14
+          }
+        },
+        "paired_reports": 372,
+        "correct_uid_pairs": 365,
+        "rgb_only_reports": 23
+      },
+      "test": {
+        "pairs": 121,
+        "unique_gt": 449,
+        "unique_tp": 412,
+        "unique_recall": 0.9175946547884187,
+        "reports": 443,
+        "background_fp": 28,
+        "duplicate_alerts": 3,
+        "wrong_merges": 0,
+        "background_fppi": 0.23140495867768596,
+        "actionable_false_alert_fppi": 0.256198347107438,
+        "by_camera": {
+          "01": {
+            "unique_tp": 84,
+            "background_fp": 3,
+            "duplicate_alerts": 1
+          },
+          "03": {
+            "unique_tp": 22
+          },
+          "05": {
+            "unique_tp": 163,
+            "background_fp": 9
+          },
+          "07": {
+            "unique_tp": 106,
+            "duplicate_alerts": 2,
+            "background_fp": 16
+          },
+          "09": {
+            "unique_tp": 34
+          },
+          "13": {
+            "unique_tp": 3
+          }
+        },
+        "paired_reports": 337,
+        "correct_uid_pairs": 322,
+        "rgb_only_reports": 29
+      },
+      "status_audit": {
+        "gt_box_diagnostic_proxy_matrix": {
+          "outside": {
+            "outside": 20,
+            "inside_no_rgb_gt": 4,
+            "both_annotated": 1
+          },
+          "inside_no_rgb_gt": {
+            "outside": 10,
+            "inside_no_rgb_gt": 37,
+            "both_annotated": 0
+          },
+          "both_annotated": {
+            "outside": 96,
+            "inside_no_rgb_gt": 16,
+            "both_annotated": 259
+          }
+        },
+        "gt_box_diagnostic_manual_matrix": {
+          "outside": {
+            "outside": 1,
+            "inside_no_rgb_gt": 1,
+            "both_annotated": 0
+          },
+          "inside_no_rgb_gt": {
+            "outside": 1,
+            "inside_no_rgb_gt": 0,
+            "both_annotated": 0
+          },
+          "both_annotated": {
+            "outside": 2,
+            "inside_no_rgb_gt": 4,
+            "both_annotated": 0
+          }
+        },
+        "operational_detected_ir_proxy_matrix": {
+          "outside": {
+            "outside": 17,
+            "inside_no_rgb_gt": 2,
+            "both_annotated": 1
+          },
+          "inside_no_rgb_gt": {
+            "outside": 5,
+            "inside_no_rgb_gt": 35,
+            "both_annotated": 0
+          },
+          "both_annotated": {
+            "outside": 73,
+            "inside_no_rgb_gt": 4,
+            "both_annotated": 257
+          }
+        },
+        "operational_detected_ir_manual_matrix": {
+          "outside": {
+            "outside": 0,
+            "inside_no_rgb_gt": 1,
+            "both_annotated": 0
+          },
+          "inside_no_rgb_gt": {
+            "outside": 0,
+            "inside_no_rgb_gt": 0,
+            "both_annotated": 0
+          },
+          "both_annotated": {
+            "outside": 0,
+            "inside_no_rgb_gt": 1,
+            "both_annotated": 0
+          }
+        },
+        "no_ir_detection_by_proxy_truth": {
+          "outside": 5,
+          "inside_no_rgb_gt": 7,
+          "both_annotated": 37
+        },
+        "manual_review_n": 9
+      }
+    }
+  }
+}

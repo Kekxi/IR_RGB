@@ -1,0 +1,79 @@
+{
+  "zero_projection_max_abs_diff": 0.0,
+  "zero_projection_exact": true,
+  "rejected_g_max": 0.0,
+  "rejected_output_equals_R": true,
+  "g_min": 0.009999998845160007,
+  "g_max": 0.9900000691413879,
+  "max_step_delta": 0.010000050067901611,
+  "monotonic_nondecreasing": true,
+  "hard_switch_max_jump": 1.0,
+  "grad_proj_norm_at_init": 0.05076521635055542,
+  "grad_gate_head_norm_at_init": 0.0,
+  "grad_gate_head_norm_after_one_step": 4.225825978210196e-05,
+  "same_head_zero_gate_matches_R": true,
+  "head_param_count": 2353,
+  "fusion_param_count": 1346,
+  "alpha_sweep": [
+    {
+      "alpha": 0.5,
+      "g_at_0.05": 0.1866055130958557,
+      "g_at_0.5": 0.5,
+      "g_at_0.95": 0.8133944869041443
+    },
+    {
+      "alpha": 1.0,
+      "g_at_0.05": 0.05000000074505806,
+      "g_at_0.5": 0.5,
+      "g_at_0.95": 0.949999988079071
+    },
+    {
+      "alpha": 3.0,
+      "g_at_0.05": 0.0001457726175431162,
+      "g_at_0.5": 0.5,
+      "g_at_0.95": 0.9998542070388794
+    }
+  ],
+  "g_curve": [
+    {
+      "c_pair": 0.01,
+      "g": 0.0
+    },
+    {
+      "c_pair": 0.11,
+      "g": 0.0019
+    },
+    {
+      "c_pair": 0.21,
+      "g": 0.0184
+    },
+    {
+      "c_pair": 0.31,
+      "g": 0.0831
+    },
+    {
+      "c_pair": 0.41,
+      "g": 0.2513
+    },
+    {
+      "c_pair": 0.51,
+      "g": 0.53
+    },
+    {
+      "c_pair": 0.61,
+      "g": 0.7928
+    },
+    {
+      "c_pair": 0.71,
+      "g": 0.9362
+    },
+    {
+      "c_pair": 0.81,
+      "g": 0.9873
+    },
+    {
+      "c_pair": 0.91,
+      "g": 0.999
+    }
+  ]
+}

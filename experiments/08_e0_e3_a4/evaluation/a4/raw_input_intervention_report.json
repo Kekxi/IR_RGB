@@ -1,0 +1,43 @@
+{
+  "config": "raw_input_intervention_config.json",
+  "sample_count": 10,
+  "ir_weights_sha256": "d263fff6741d749537a210e91a7f45be0d03abe0d758afd8dd7af27680a493ed",
+  "rgb_weights_sha256": "8ac9ca410af24b8d51d700a1ef65cf150efb729181e393fba2b6ef919adb68fb",
+  "all_ir_preserved": true,
+  "all_ir_invariant_within_1e-4": true,
+  "aggregate": {
+    "normal_rgb": {
+      "frames": 10,
+      "ir_detections": 38,
+      "rgb_detections": 30,
+      "reports": 38,
+      "paired_reports": 30,
+      "max_ir_delta": 0
+    },
+    "missing_rgb": {
+      "frames": 10,
+      "ir_detections": 38,
+      "rgb_detections": 0,
+      "reports": 38,
+      "paired_reports": 0,
+      "max_ir_delta": 0
+    },
+    "black_rgb": {
+      "frames": 10,
+      "ir_detections": 38,
+      "rgb_detections": 0,
+      "reports": 38,
+      "paired_reports": 0,
+      "max_ir_delta": 0
+    },
+    "gaussian_blur_rgb": {
+      "frames": 10,
+      "ir_detections": 38,
+      "rgb_detections": 23,
+      "reports": 38,
+      "paired_reports": 23,
+      "max_ir_delta": 0
+    }
+  },
+  "limit": "Independent RGB-only model differs from frozen b3_rgb candidate source; structural routing and IR invariance only, not a comparable detection-system score or real night proof."
+}

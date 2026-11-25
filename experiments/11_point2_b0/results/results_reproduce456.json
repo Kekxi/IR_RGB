@@ -1,0 +1,12 @@
+{
+  "methods": {
+    "probability": 456,
+    "greedy": 456,
+    "max_cardinality": 506,
+    "distance_baseline": 501
+  },
+  "chosen": "probability",
+  "accepted": 456,
+  "train_frames": 160,
+  "train_edges": 347
+}

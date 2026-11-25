@@ -1,0 +1,7 @@
+﻿model,score_scope,n,brier,nll
+distance_calibrated,verified,59,0.005878264733857616,0.021058233475337966
+distance_calibrated,all_reviewed_exploratory,236,0.06261317026131076,0.7063505784913844
+density_uncalibrated,verified,59,0.008949262424351994,0.043008150547449324
+density_uncalibrated,all_reviewed_exploratory,236,0.061392813188268676,0.2720823248703682
+full_calibrated,verified,59,0.003656406117860912,0.015060069562582094
+full_calibrated,all_reviewed_exploratory,236,0.06312094473762865,0.7261163462126722

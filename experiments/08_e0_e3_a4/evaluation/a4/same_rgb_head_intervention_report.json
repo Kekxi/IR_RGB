@@ -1,0 +1,33 @@
+{
+  "config": "same_rgb_head_intervention_config.json",
+  "b3_rgb_weights_sha256": "5e9152c80543d3c64fcc363f08232665fb0563ca8ab54cbca4fa3ce9f8be685a",
+  "ir_weights_sha256": "d263fff6741d749537a210e91a7f45be0d03abe0d758afd8dd7af27680a493ed",
+  "aggregate": {
+    "normal_rgb": {
+      "ir_detections": 38,
+      "rgb_detections": 34,
+      "reports": 39,
+      "paired_reports": 33
+    },
+    "missing_rgb": {
+      "ir_detections": 38,
+      "rgb_detections": 0,
+      "reports": 38,
+      "paired_reports": 0
+    },
+    "black_rgb": {
+      "ir_detections": 38,
+      "rgb_detections": 0,
+      "reports": 38,
+      "paired_reports": 0
+    },
+    "gaussian_blur_rgb": {
+      "ir_detections": 38,
+      "rgb_detections": 22,
+      "reports": 38,
+      "paired_reports": 22
+    }
+  },
+  "normal_rgb_max_box_score_delta_vs_frozen_b3_export": 0.0017874836921691895,
+  "limit": "Ten calibration frames only; no night images, independent test, or performance claim."
+}

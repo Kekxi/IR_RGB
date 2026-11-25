@@ -1,0 +1,54 @@
+{
+  "source_sha256": "5f5c053b0a92fcb2c14959e7f1ca468966d76afe99a74dc8c8bd468dce449c41",
+  "count": 120,
+  "identity": {
+    "matched": 107,
+    "null": 11,
+    "uncertain_gt_validity": 1,
+    "uncertain_identity": 1
+  },
+  "observability": {
+    "both_visible": 107,
+    "in_fov_unrecognizable": 8,
+    "uncertain": 2,
+    "null_reason_unspecified": 2,
+    "in_fov_missing_box": 1
+  },
+  "by_camera": {
+    "00": {
+      "matched": 38,
+      "null": 1,
+      "uncertain_gt_validity": 1,
+      "uncertain_identity": 0
+    },
+    "10": {
+      "matched": 31,
+      "null": 8,
+      "uncertain_gt_validity": 0,
+      "uncertain_identity": 1
+    },
+    "13": {
+      "matched": 38,
+      "null": 2,
+      "uncertain_gt_validity": 0,
+      "uncertain_identity": 0
+    }
+  },
+  "by_camera_fog_bin": {
+    "00": {
+      "high": 0,
+      "low": 40,
+      "medium": 0
+    },
+    "10": {
+      "high": 0,
+      "low": 2,
+      "medium": 38
+    },
+    "13": {
+      "high": 32,
+      "low": 0,
+      "medium": 8
+    }
+  }
+}

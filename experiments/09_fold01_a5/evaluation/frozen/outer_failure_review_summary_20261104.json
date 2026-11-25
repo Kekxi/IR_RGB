@@ -1,0 +1,27 @@
+{
+  "pages": 34,
+  "answered": 34,
+  "status_by_frozen_outcome": {
+    "('false_match', 'gt_correct_visible')": 1,
+    "('ir_miss', 'gt_correct_visible')": 17,
+    "('ir_miss', 'gt_unrecognizable')": 1,
+    "('rgb_miss', 'gt_correct_visible')": 15
+  },
+  "visible_detector_misses": 32,
+  "visible_detector_misses_by_camera_modality": {
+    "('00', 'ir')": 2,
+    "('00', 'rgb')": 7,
+    "('10', 'ir')": 4,
+    "('10', 'rgb')": 1,
+    "('13', 'ir')": 11,
+    "('13', 'rgb')": 7
+  },
+  "visible_miss_best_iou_bins": {
+    "<0.01": 31,
+    "0.01-0.10": 1,
+    "0.10-0.30": 0,
+    "0.30-0.50": 0
+  },
+  "visible_miss_best_iou_median": 0.0,
+  "outer_model_or_threshold_retuned": false
+}
